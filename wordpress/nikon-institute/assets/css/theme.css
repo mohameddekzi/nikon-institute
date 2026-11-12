@@ -358,3 +358,7 @@
 .ni-cta__btn { display: inline-flex; align-items: center; gap: 8px; background: #213A5C; color: #fff !important; text-decoration: none; padding: 15px 28px; border-radius: 999px; font-weight: 700; white-space: nowrap; transition: background .2s, color .2s; }
 .ni-cta__btn:hover { background: #152842; color: #D9BC6A !important; }
 .ni-wa + .ni-form, .ni-wa ~ .ni-form { margin-top: clamp(64px, 7vw, 100px); }
+.ni-strip img { position: absolute; inset: 0; }
+.ni-tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+.ni-tabs::-webkit-scrollbar { display: none; }
+.ni-tab { white-space: nowrap; flex: none; }
