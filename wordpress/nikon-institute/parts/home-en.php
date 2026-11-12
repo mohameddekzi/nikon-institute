@@ -113,22 +113,7 @@
 </div>
 </div>
 </div></section>
-<section data-dc-tpl="257" data-screen-label="Programs" style="background: rgb(21, 40, 66); color: rgb(255, 255, 255); position: relative; overflow: hidden;">
-<div style="position: absolute; bottom: -260px; inset-inline-start: -220px; width: 620px; height: 620px; border-radius: 50%; border: 1px solid rgba(217, 188, 106, 0.14); pointer-events: none;"><div style="position: absolute; inset: 90px; border-radius: 50%; border: 1px solid rgba(217, 188, 106, 0.12);"></div><div style="position: absolute; inset: 180px; border-radius: 50%; border: 1px solid rgba(217, 188, 106, 0.1);"></div></div>
-<div style="position: relative; max-width: 1240px; margin: 0px auto; padding: clamp(64px, 9vw, 120px) clamp(20px, 4vw, 40px); display: flex; flex-wrap: wrap; gap: clamp(36px, 6vw, 96px);">
-<div style="flex: 1 1 420px; min-width: 0px;">
-<div style="display: flex; align-items: center; gap: 14px; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: rgb(217, 188, 106);"><span style="width: 36px; height: 2px; background: rgb(196, 162, 74); flex: 0 0 auto;"></span>Our programs</div>
-<h2 style='font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-weight: 400; font-size: clamp(32px, 4vw, 52px); line-height: 1.08; letter-spacing: -0.015em; margin: 20px 0px 0px; text-wrap: balance;'>Connecting evidence with action.</h2>
-<p style="font-size: 17px; line-height: 1.75; color: rgb(201, 209, 222); margin: 24px 0px 0px; text-wrap: pretty;">Our programmes are designed to generate knowledge, strengthen institutions and drive sustainable development across Somalia and the Horn of Africa. Our integrated approach fosters innovation, promotes informed decision-making and creates lasting impact for governments, communities and development partners.</p>
-<a class="scp4" href="<?php echo esc_url( ni_url( 'programs' ) ); ?>" style="display: inline-block; margin-top: 34px; background: rgb(196, 162, 74); color: rgb(21, 40, 66); font-weight: 700; font-size: 16px; padding: 16px 30px; border-radius: 2px; transition: background 0.2s;">See all programs</a>
-</div>
-<div style="flex: 1 1 420px; min-width: 0px; border-top: 1px solid rgb(52, 73, 106);">
-<a class="scp7" href="<?php echo esc_url( ni_url( 'programs' ) ); ?>" style="display: flex; align-items: baseline; gap: 24px; padding: 26px 0px; border-bottom: 1px solid rgb(52, 73, 106); color: rgb(255, 255, 255); transition: padding 0.2s, color 0.2s;"><i class="ph ph-magnifying-glass" style="font-size: 28px; color: rgb(217, 188, 106); flex: 0 0 auto;"></i><span style='font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-size: clamp(24px, 2.6vw, 32px); flex: 1 1 0%;'>Research</span><span>→</span></a>
-<a class="scp7" href="<?php echo esc_url( ni_url( 'programs' ) ); ?>" style="display: flex; align-items: baseline; gap: 24px; padding: 26px 0px; border-bottom: 1px solid rgb(52, 73, 106); color: rgb(255, 255, 255); transition: padding 0.2s, color 0.2s;"><i class="ph ph-bank" style="font-size: 28px; color: rgb(217, 188, 106); flex: 0 0 auto;"></i><span style='font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-size: clamp(24px, 2.6vw, 32px); flex: 1 1 0%;'>Policy engagement</span><span>→</span></a>
-<a class="scp7" href="<?php echo esc_url( ni_url( 'programs' ) ); ?>" style="display: flex; align-items: baseline; gap: 24px; padding: 26px 0px; border-bottom: 1px solid rgb(52, 73, 106); color: rgb(255, 255, 255); transition: padding 0.2s, color 0.2s;"><i class="ph ph-chalkboard-teacher" style="font-size: 28px; color: rgb(217, 188, 106); flex: 0 0 auto;"></i><span style='font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-size: clamp(24px, 2.6vw, 32px); flex: 1 1 0%;'>Capacity development</span><span>→</span></a>
-<a class="scp7" href="<?php echo esc_url( ni_url( 'programs' ) ); ?>" style="display: flex; align-items: baseline; gap: 24px; padding: 26px 0px; border-bottom: 1px solid rgb(52, 73, 106); color: rgb(255, 255, 255); transition: padding 0.2s, color 0.2s;"><i class="ph ph-handshake" style="font-size: 28px; color: rgb(217, 188, 106); flex: 0 0 auto;"></i><span style='font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-size: clamp(24px, 2.6vw, 32px); flex: 1 1 0%;'>Strategic partnerships</span><span>→</span></a>
-</div>
-</div></section>
+<?php echo ni_programs_section(); // phpcs:ignore ?>
 <section data-dc-tpl="285" data-screen-label="News and events" style="background: rgb(255, 255, 255);">
 <div style="max-width: 1240px; margin: 0px auto; padding: clamp(64px, 9vw, 120px) clamp(20px, 4vw, 40px);">
 <div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-end; justify-content: space-between;">

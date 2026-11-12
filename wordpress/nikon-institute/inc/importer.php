@@ -227,12 +227,12 @@ function ni_build_menu( $lang, $map, $home_id ) {
 	$pos = 1;
 	$add( $home_id, 0, $pos++ );
 	foreach ( $data['pages'] as $p ) {
-		if ( 0 === strpos( $p['key'], 'grp_' ) ) {
-			$parent_item = $add( $map[ $lang ][ $p['key'] ], 0, $pos++ );
-			foreach ( $data['pages'] as $c ) {
-				if ( $c['parent'] === $p['key'] && $c['tab'] ) {
-					$add( $map[ $lang ][ $c['key'] ], $parent_item, $pos++ );
-				}
+		if ( 0 === strpos( $p['key'], 'grp_' ) && ! empty( $map[ $lang ][ $p['key'] ] ) ) {
+			$gid         = (int) $map[ $lang ][ $p['key'] ];
+			$parent_item = $add( $gid, 0, $pos++ );
+			$kids        = get_pages( array( 'parent' => $gid, 'sort_column' => 'menu_order', 'meta_key' => '_ni_tab', 'meta_value' => '1', 'post_status' => 'publish' ) ); // phpcs:ignore WordPress.DB.SlowDBQuery
+			foreach ( $kids as $kid ) {
+				$add( $kid->ID, $parent_item, $pos++ );
 			}
 		}
 	}

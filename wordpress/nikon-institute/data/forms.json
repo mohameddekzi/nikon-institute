@@ -703,6 +703,79 @@
      "opts": null
     }
    ]
+  },
+  "donation": {
+   "en": "Tell us about your gift",
+   "ar": "أخبرنا عن تبرعك",
+   "eyebrow": {
+    "en": "After your transfer",
+    "ar": "بعد التحويل"
+   },
+   "fields": [
+    {
+     "name": "gift",
+     "en": "Your gift",
+     "ar": "تبرعك",
+     "type": "text",
+     "req": true,
+     "full": true,
+     "opts": null
+    },
+    {
+     "name": "name",
+     "en": "Full name",
+     "ar": "الاسم الكامل",
+     "type": "text",
+     "req": true,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "email",
+     "en": "Email",
+     "ar": "البريد الإلكتروني",
+     "type": "email",
+     "req": true,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "phone",
+     "en": "Phone",
+     "ar": "الهاتف",
+     "type": "tel",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "bank",
+     "en": "Bank used",
+     "ar": "البنك المستخدم",
+     "type": "select",
+     "req": true,
+     "full": false,
+     "opts": [
+      [
+       "Premier Bank",
+       "بنك بريمير"
+      ],
+      [
+       "Dahabshil Bank",
+       "بنك دهبشيل"
+      ]
+     ]
+    },
+    {
+     "name": "message",
+     "en": "Message (optional)",
+     "ar": "رسالة (اختياري)",
+     "type": "textarea",
+     "req": false,
+     "full": true,
+     "opts": null
+    }
+   ]
   }
  },
  "ui": {

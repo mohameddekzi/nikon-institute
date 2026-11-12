@@ -11,13 +11,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'NI_VERSION', '1.0.0' );
+define( 'NI_VERSION', '1.1.0' );
 define( 'NI_DIR', get_template_directory() );
 define( 'NI_URI', get_template_directory_uri() );
 
 require_once NI_DIR . '/inc/importer.php';
 require_once NI_DIR . '/inc/forms.php';
 require_once NI_DIR . '/inc/admin.php';
+require_once NI_DIR . '/inc/sections.php';
 
 /* -------------------------------------------------------------------------
  * Setup

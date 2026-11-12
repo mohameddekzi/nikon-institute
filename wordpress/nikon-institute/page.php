@@ -28,7 +28,11 @@ while ( have_posts() ) :
 	}
 	?>
 	<main id="main">
-	<section class="ni-phead">
+	<?php
+	$ni_key   = get_post_meta( $ni_id, '_ni_key', true );
+	$ni_photo = has_post_thumbnail( $ni_id ) ? get_the_post_thumbnail_url( $ni_id, 'full' ) : '';
+	?>
+	<section class="ni-phead<?php echo $ni_photo ? ' ni-phead--photo' : ''; ?>"<?php echo $ni_photo ? ' style="--ni-photo:url(' . esc_url( $ni_photo ) . ')"' : ''; ?>>
 		<div class="ni-phead__rings"><div></div><div></div></div>
 		<div class="ni-phead__in">
 			<div class="ni-crumbs">
@@ -54,7 +58,7 @@ while ( have_posts() ) :
 			<?php endif; ?>
 		</div>
 	</section>
-	<section class="ni-pbody">
+	<section class="ni-pbody ni-pbody--<?php echo esc_attr( $ni_key ? $ni_key : 'page' ); ?>">
 		<div class="ni-pbody__in">
 			<?php the_content(); ?>
 		</div>

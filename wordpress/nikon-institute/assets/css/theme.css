@@ -108,3 +108,178 @@
 /* RTL details */
 [dir="rtl"] .ni-crumbs, [dir="rtl"] .ni-news-date, [dir="rtl"] .ni-form__eyebrow, [dir="rtl"] .ni-post-date { letter-spacing: 0; }
 [dir="rtl"] .ni-phead__title { line-height: 1.3; }
+
+/* =====================================================================
+ * v1.1 — Programme cards, photo headers, donate, books, mail chooser
+ * ===================================================================== */
+.ni-eyebrow { display: inline-flex; align-items: center; gap: 12px; font-size: 13px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #86691C; }
+.ni-eyebrow > span { width: 36px; height: 1px; background: currentColor; display: inline-block; }
+.ni-eyebrow--light { color: #D9BC6A; }
+[dir="rtl"] .ni-eyebrow { letter-spacing: 0; }
+
+/* Photo page header */
+.ni-phead--photo { background: #152842 var(--ni-photo) center / cover no-repeat; }
+.ni-phead--photo::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(21, 40, 66, .96) 0%, rgba(21, 40, 66, .86) 42%, rgba(21, 40, 66, .5) 100%); }
+[dir="rtl"] .ni-phead--photo::before { background: linear-gradient(270deg, rgba(21, 40, 66, .96) 0%, rgba(21, 40, 66, .86) 42%, rgba(21, 40, 66, .5) 100%); }
+.ni-phead--photo::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: #C4A24A; }
+.ni-phead--photo .ni-phead__rings { display: none; }
+.ni-phead--photo .ni-phead__in { padding-top: clamp(64px, 8vw, 120px); }
+.ni-phead--photo .ni-tabs--empty { height: clamp(56px, 7vw, 96px); }
+
+/* Programme cards */
+.ni-programs { position: relative; overflow: hidden; background: #152842; color: #fff; }
+.ni-programs__rings { position: absolute; top: -300px; inset-inline-start: -260px; width: 680px; height: 680px; border-radius: 50%; border: 1px solid rgba(217, 188, 106, .14); pointer-events: none; }
+.ni-programs__rings div { position: absolute; border-radius: 50%; border: 1px solid rgba(217, 188, 106, .1); }
+.ni-programs__rings div:first-child { inset: 110px; }
+.ni-programs__rings div:last-child { inset: 220px; }
+.ni-programs__in { position: relative; max-width: 1240px; margin: 0 auto; padding: clamp(72px, 9vw, 128px) clamp(20px, 4vw, 40px); }
+.ni-programs__head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 24px 48px; margin-bottom: clamp(36px, 4vw, 56px); }
+.ni-programs__title { font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-weight: 400; font-size: clamp(34px, 4.2vw, 56px); line-height: 1.06; letter-spacing: -.015em; margin: 18px 0 0; color: #fff; }
+.ni-programs__lead { max-width: 640px; margin: 18px 0 0; font-size: 17px; line-height: 1.7; color: #C9D1DE; }
+.ni-btn-outline { display: inline-flex; align-items: center; gap: 10px; border: 1px solid rgba(255, 255, 255, .4); color: #fff !important; text-decoration: none; padding: 14px 26px; border-radius: 999px; font-weight: 600; font-size: 15px; transition: background .2s, border-color .2s, color .2s; white-space: nowrap; }
+.ni-btn-outline:hover { background: #C4A24A; border-color: #C4A24A; color: #152842 !important; }
+.ni-pgrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+@media (max-width: 1100px) { .ni-pgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .ni-pgrid { grid-template-columns: 1fr; } }
+.ni-pcard { position: relative; display: block; min-height: 400px; border-radius: 6px; overflow: hidden; background: #213A5C; color: #fff !important; text-decoration: none; isolation: isolate; box-shadow: 0 1px 0 rgba(255, 255, 255, .04); }
+.ni-pcard__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .8s cubic-bezier(.2, .7, .2, 1); z-index: -2; }
+.ni-pcard:hover .ni-pcard__img, .ni-pcard:focus-visible .ni-pcard__img { transform: scale(1.07); }
+.ni-pcard__shade { position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(21, 40, 66, .05) 0%, rgba(21, 40, 66, .35) 38%, rgba(21, 40, 66, .88) 66%, rgba(15, 29, 49, .98) 100%); transition: background .4s; }
+.ni-pcard:hover .ni-pcard__shade { background: linear-gradient(180deg, rgba(21, 40, 66, .15) 0%, rgba(21, 40, 66, .5) 34%, rgba(21, 40, 66, .92) 62%, rgba(15, 29, 49, .99) 100%); }
+.ni-pcard__body { position: absolute; inset: auto 0 0 0; padding: 26px 26px 28px; display: flex; flex-direction: column; gap: 10px; }
+.ni-pcard__num { font-size: 13px; font-weight: 700; color: #D9BC6A; letter-spacing: .08em; }
+.ni-pcard__title { font-family: "Albert Sans", "IBM Plex Sans Arabic", sans-serif; font-weight: 700; font-size: 22px; line-height: 1.2; letter-spacing: -.01em; }
+.ni-pcard__text { font-size: 14.5px; line-height: 1.6; color: rgba(255, 255, 255, .82); }
+.ni-pcard__more { margin-top: 6px; font-size: 14px; font-weight: 700; color: #D9BC6A; }
+.ni-pcard::after { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: #C4A24A; transform: scaleX(0); transform-origin: left; transition: transform .4s; }
+[dir="rtl"] .ni-pcard::after { transform-origin: right; }
+.ni-pcard:hover::after { transform: scaleX(1); }
+[dir="rtl"] .ni-pcard__title { font-family: "IBM Plex Sans Arabic", sans-serif; letter-spacing: 0; }
+.ni-programs-page .ni-pcard { min-height: 420px; }
+
+/* Donate */
+.ni-pbody--donatePage { background: #F6F3EA; }
+.ni-give { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); gap: clamp(32px, 6vw, 96px); align-items: start; }
+@media (max-width: 960px) { .ni-give { grid-template-columns: 1fr; } }
+.ni-give__lead { font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-size: clamp(26px, 2.8vw, 38px); line-height: 1.3; color: #17273D; margin: 0 0 32px; max-width: 620px; }
+.ni-give__photo { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; display: block; box-shadow: 0 30px 60px -30px rgba(21, 40, 66, .45); }
+.ni-give__card { background: #fff; border-top: 4px solid #C4A24A; border-radius: 6px; padding: clamp(26px, 3.4vw, 44px); box-shadow: 0 24px 60px -32px rgba(21, 40, 66, .35); position: sticky; top: 110px; }
+.ni-give__freq { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; padding: 6px; background: #F6F3EA; border-radius: 999px; margin-bottom: 24px; }
+.ni-give__freq button { border: 0; cursor: pointer; font: inherit; font-weight: 600; font-size: 15px; padding: 13px 10px; border-radius: 999px; background: #fff; color: #17273D; transition: background .2s, color .2s; }
+.ni-give__freq button.is-on { background: #213A5C; color: #fff; }
+.ni-give__amounts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-bottom: 26px; }
+.ni-give__amounts button { border: 1px solid #DCD5C2; background: #fff; cursor: pointer; font: inherit; font-family: "Albert Sans", sans-serif; font-weight: 700; font-size: clamp(18px, 1.7vw, 22px); color: #17273D; padding: 20px 6px; border-radius: 4px; transition: all .2s; }
+.ni-give__amounts button:hover { border-color: #C4A24A; }
+.ni-give__amounts button.is-on { background: #213A5C; border-color: #213A5C; color: #fff; }
+.ni-give__other { grid-column: span 3; display: flex; align-items: center; gap: 6px; border: 1px solid #DCD5C2; border-radius: 4px; padding: 0 14px; background: #fff; font-weight: 700; color: #17273D; }
+.ni-give__other:focus-within { border-color: #C4A24A; }
+.ni-give__other input { border: 0; outline: 0; width: 100%; font: inherit; font-size: 18px; font-weight: 600; color: #17273D; padding: 16px 0; background: transparent; }
+.ni-give__label { font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #213A5C; margin-bottom: 10px; }
+[dir="rtl"] .ni-give__label { letter-spacing: 0; }
+.ni-give__purpose { width: 100%; font: inherit; font-size: 16px; color: #17273D; background: #F6F3EA; border: 1px solid #DCD5C2; border-radius: 4px; padding: 16px 14px; margin-bottom: 22px; }
+.ni-give__go { width: 100%; border: 0; cursor: pointer; font: inherit; font-weight: 700; font-size: 18px; background: #213A5C; color: #fff; padding: 20px; border-radius: 999px; transition: background .2s, color .2s, transform .2s; }
+.ni-give__go:hover { background: #152842; color: #D9BC6A; }
+.ni-give__go:active { transform: scale(.99); }
+.ni-give__note { margin: 16px 0 0; font-size: 14px; color: #4A5770; text-align: center; line-height: 1.6; }
+.ni-banks { margin-top: clamp(64px, 8vw, 112px); scroll-margin-top: 100px; }
+.ni-banks.is-flash .ni-bank { animation: niflash 1.4s ease; }
+@keyframes niflash { 0% { box-shadow: 0 0 0 0 rgba(196, 162, 74, .7); } 100% { box-shadow: 0 0 0 18px rgba(196, 162, 74, 0); } }
+.ni-banks__title { font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-weight: 400; font-size: clamp(30px, 3.4vw, 44px); line-height: 1.1; color: #17273D; margin: 14px 0 10px; }
+.ni-banks__summary { font-size: 17px; color: #4A5770; margin: 0 0 30px; }
+.ni-banks__summary strong { color: #17273D; }
+.ni-banks__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+@media (max-width: 760px) { .ni-banks__grid { grid-template-columns: 1fr; } }
+.ni-bank { background: #fff; border-radius: 6px; padding: 30px 32px; border: 1px solid #E6E1D3; border-top: 4px solid #C4A24A; }
+.ni-bank__logo { height: 76px; display: flex; align-items: center; margin-bottom: 14px; }
+.ni-bank__logo img { max-height: 76px; max-width: 220px; width: auto; object-fit: contain; }
+.ni-bank__name { font-weight: 700; font-size: 18px; color: #17273D; margin-bottom: 14px; }
+.ni-bank__dl { margin: 0; display: grid; gap: 12px; }
+.ni-bank__dl > div { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 6px 16px; padding-top: 12px; border-top: 1px solid #EEEADF; }
+.ni-bank__dl dt { font-size: 13px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: #86691C; }
+[dir="rtl"] .ni-bank__dl dt { letter-spacing: 0; }
+.ni-bank__dl dd { margin: 0; font-size: 18px; font-weight: 700; color: #17273D; display: flex; align-items: center; gap: 10px; }
+.ni-bank__no { font-family: "Albert Sans", sans-serif; letter-spacing: .04em; }
+.ni-copy { border: 1px solid #DCD5C2; background: #F6F3EA; color: #213A5C; font: inherit; font-size: 13px; font-weight: 700; padding: 6px 12px; border-radius: 999px; cursor: pointer; }
+.ni-copy:hover { border-color: #C4A24A; }
+.ni-banks__after { margin: 30px 0 0; font-size: 16px; color: #4A5770; }
+.ni-banks .ni-form { background: #fff; margin-top: 18px; }
+
+/* Books */
+.ni-books { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 520px), 1fr)); gap: 28px; margin-top: 12px; }
+.ni-book { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 28px; align-items: start; background: #F6F3EA; border-radius: 6px; padding: 28px; }
+@media (max-width: 560px) { .ni-book { grid-template-columns: 1fr; } }
+.ni-book__cover { position: relative; display: block; width: 180px; aspect-ratio: 2 / 3; border: 0; padding: 0; background: #213A5C; border-radius: 2px 6px 6px 2px; overflow: hidden; cursor: pointer; box-shadow: 0 24px 40px -18px rgba(21, 40, 66, .55), 0 2px 6px rgba(21, 40, 66, .2); transition: transform .3s; }
+.ni-book__cover:hover:not([disabled]) { transform: translateY(-4px) rotate(-1deg); }
+.ni-book__cover[disabled] { cursor: default; }
+.ni-book__cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ni-book__spine { position: absolute; top: 0; bottom: 0; left: 0; width: 10px; background: linear-gradient(90deg, rgba(0, 0, 0, .28), rgba(255, 255, 255, .08), rgba(0, 0, 0, 0)); }
+.ni-book__blank { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: space-between; padding: 22px 18px 22px 24px; background: linear-gradient(160deg, #213A5C, #152842); color: #fff; text-align: start; border-top: 6px solid #C4A24A; }
+.ni-book__blank-mark { font-size: 12px; font-weight: 800; letter-spacing: .3em; color: #D9BC6A; }
+.ni-book__blank-title { font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-size: 19px; line-height: 1.25; }
+.ni-book__title { font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-weight: 400; font-size: clamp(22px, 2vw, 28px); line-height: 1.25; color: #17273D; margin: 0; }
+.ni-book__meta { margin-top: 10px; font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #86691C; }
+.ni-book__text { margin: 14px 0 0; font-size: 16px; line-height: 1.7; color: #4A5770; }
+.ni-book__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 22px; }
+.ni-book__btn { border: 0; cursor: pointer; font: inherit; font-weight: 700; font-size: 15px; background: #213A5C; color: #fff; padding: 13px 24px; border-radius: 999px; }
+.ni-book__btn:hover { background: #152842; color: #D9BC6A; }
+.ni-book__link { color: #213A5C; font-weight: 700; text-decoration: underline; text-underline-offset: 4px; }
+.ni-book__soon { font-size: 14px; font-weight: 600; color: #86691C; }
+.ni-book--empty { grid-column: 1 / -1; max-width: 860px; }
+.ni-viewer { position: fixed; inset: 0; z-index: 9999; background: rgba(11, 22, 38, .92); display: flex; flex-direction: column; padding: clamp(10px, 2vw, 28px); }
+.ni-viewer[hidden] { display: none; }
+.ni-viewer__bar { display: flex; align-items: center; gap: 16px; color: #fff; padding: 0 4px 14px; }
+.ni-viewer__title { flex: 1; font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-weight: 400; font-size: 20px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ni-viewer__dl { color: #D9BC6A !important; font-weight: 700; }
+.ni-viewer__close { border: 0; background: #fff; color: #152842; width: 40px; height: 40px; border-radius: 50%; font-size: 26px; line-height: 1; cursor: pointer; }
+.ni-viewer__frame { flex: 1; width: 100%; border: 0; border-radius: 6px; background: #fff; }
+
+/* Mail chooser */
+.ni-mailbox { position: fixed; inset: 0; z-index: 9998; background: rgba(11, 22, 38, .6); display: flex; align-items: center; justify-content: center; padding: 20px; }
+.ni-mailbox[hidden] { display: none; }
+.ni-mailbox__card { position: relative; width: min(440px, 100%); background: #fff; border-top: 4px solid #C4A24A; border-radius: 6px; padding: 30px 28px 26px; box-shadow: 0 40px 80px -30px rgba(0, 0, 0, .5); }
+.ni-mailbox__x { position: absolute; top: 12px; inset-inline-end: 12px; border: 0; background: #F6F3EA; width: 34px; height: 34px; border-radius: 50%; font-size: 22px; line-height: 1; cursor: pointer; color: #17273D; }
+.ni-mailbox__addr { font-family: Newsreader, Georgia, serif; font-weight: 400; font-size: 26px; color: #17273D; margin: 12px 0 20px; }
+.ni-mailbox__opts { display: grid; gap: 8px; }
+.ni-mailbox__opt { display: flex; align-items: center; gap: 12px; width: 100%; border: 1px solid #E6E1D3; background: #fff; color: #17273D !important; text-decoration: none; font: inherit; font-weight: 600; font-size: 15px; padding: 13px 16px; border-radius: 4px; cursor: pointer; text-align: start; transition: border-color .2s, background .2s; }
+.ni-mailbox__opt:hover { border-color: #C4A24A; background: #F6F3EA; }
+.ni-mailbox__opt i { font-size: 20px; color: #86691C; }
+.ni-mailbox__opt--main { background: #213A5C; border-color: #213A5C; color: #fff !important; }
+.ni-mailbox__opt--main i { color: #D9BC6A; }
+.ni-mailbox__opt--main:hover { background: #152842; }
+
+/* Work approach page */
+.ni-wa-intro { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(32px, 6vw, 88px); align-items: center; }
+@media (max-width: 900px) { .ni-wa-intro { grid-template-columns: 1fr; } }
+.ni-wa-intro__lead { font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-size: clamp(26px, 2.8vw, 36px); line-height: 1.3; color: #17273D; margin: 18px 0 22px; }
+.ni-wa-intro p { font-size: 17px; line-height: 1.8; color: #4A5770; margin: 0 0 16px; }
+.ni-wa-intro__photo { position: relative; }
+.ni-wa-intro__photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 8px; display: block; }
+.ni-wa-intro__photo::before { content: ""; position: absolute; inset: 22px -22px -22px 22px; border: 2px solid #C4A24A; border-radius: 8px; z-index: -1; }
+[dir="rtl"] .ni-wa-intro__photo::before { inset: 22px 22px -22px -22px; }
+.ni-wa-intro__photo { isolation: isolate; }
+.ni-wa-model { margin-top: clamp(80px, 9vw, 130px); display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(32px, 6vw, 88px); align-items: center; }
+@media (max-width: 900px) { .ni-wa-model { grid-template-columns: 1fr; } }
+.ni-venn { position: relative; width: min(100%, 460px); aspect-ratio: 1; margin: 0 auto; }
+.ni-venn__c { position: absolute; width: 62%; aspect-ratio: 1; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-align: center; font-weight: 700; font-size: 15px; padding: 0 14%; mix-blend-mode: multiply; }
+.ni-venn__c span { display: block; max-width: 120px; }
+.ni-venn__c--a { top: 0; left: 19%; background: rgba(196, 162, 74, .55); color: #3d2f08; align-items: flex-start; padding-top: 22%; }
+.ni-venn__c--b { bottom: 0; left: 0; background: rgba(33, 58, 92, .55); color: #0e1b2e; align-items: flex-end; justify-content: flex-start; padding: 0 0 22% 12%; }
+.ni-venn__c--c { bottom: 0; right: 0; background: rgba(46, 125, 79, .45); color: #0f2b1b; align-items: flex-end; justify-content: flex-end; padding: 0 12% 22% 0; }
+.ni-venn__core { position: absolute; left: 50%; top: 56%; transform: translate(-50%, -50%); background: #152842; color: #fff; border: 3px solid #C4A24A; width: 30%; aspect-ratio: 1; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 13px; font-weight: 700; line-height: 1.25; padding: 10px; }
+.ni-wa-h2 { font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-weight: 400; font-size: clamp(30px, 3.4vw, 46px); line-height: 1.1; color: #17273D; margin: 16px 0 26px; }
+.ni-wa-partners { display: grid; gap: 16px; }
+.ni-wa-partner { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 18px; padding: 22px 24px; background: #F6F3EA; border-inline-start: 4px solid #C4A24A; border-radius: 4px; }
+.ni-wa-partner i { font-size: 30px; color: #213A5C; width: 56px; height: 56px; border-radius: 50%; background: #fff; display: flex; align-items: center; justify-content: center; }
+.ni-wa-partner h3 { margin: 0; font-size: 19px; font-weight: 700; color: #17273D; }
+.ni-wa-partner small { display: block; margin: 3px 0 8px; font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #86691C; }
+[dir="rtl"] .ni-wa-partner small { letter-spacing: 0; }
+.ni-wa-partner p { margin: 0; font-size: 15.5px; line-height: 1.7; color: #4A5770; }
+.ni-wa-band { margin-top: clamp(80px, 9vw, 130px); background: #152842; color: #fff; border-radius: 8px; padding: clamp(36px, 5vw, 64px); display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 64px); position: relative; overflow: hidden; }
+@media (max-width: 900px) { .ni-wa-band { grid-template-columns: 1fr; } }
+.ni-wa-band blockquote { margin: 0; font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-size: clamp(24px, 2.6vw, 34px); line-height: 1.3; }
+.ni-wa-band blockquote em { color: #D9BC6A; font-style: italic; }
+.ni-wa-outcomes { display: grid; gap: 18px; }
+.ni-wa-outcome { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 16px; }
+.ni-wa-outcome b { font-family: "Albert Sans", sans-serif; color: #D9BC6A; font-size: 15px; padding-top: 3px; }
+.ni-wa-outcome h4 { margin: 0 0 6px; font-size: 18px; font-weight: 700; }
+.ni-wa-outcome p { margin: 0; color: #C9D1DE; line-height: 1.7; font-size: 15.5px; }
