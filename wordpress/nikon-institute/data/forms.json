@@ -1,0 +1,730 @@
+{
+ "forms": {
+  "strategic": {
+   "en": "Strategic partnership request",
+   "ar": "طلب شراكة استراتيجية",
+   "fields": [
+    {
+     "name": "org",
+     "en": "Organization name",
+     "ar": "اسم المنظمة",
+     "type": "text",
+     "req": true,
+     "full": true,
+     "opts": null
+    },
+    {
+     "name": "orgType",
+     "en": "Organization type",
+     "ar": "نوع المنظمة",
+     "type": "select",
+     "req": true,
+     "full": false,
+     "opts": [
+      [
+       "NGO / INGO",
+       "منظمة غير حكومية / دولية"
+      ],
+      [
+       "UN agency",
+       "وكالة أممية"
+      ],
+      [
+       "Government",
+       "جهة حكومية"
+      ],
+      [
+       "Private sector",
+       "القطاع الخاص"
+      ],
+      [
+       "Academic / research",
+       "جهة أكاديمية / بحثية"
+      ],
+      [
+       "Donor / foundation",
+       "جهة مانحة / مؤسسة"
+      ],
+      [
+       "Other",
+       "أخرى"
+      ]
+     ]
+    },
+    {
+     "name": "name",
+     "en": "Contact person",
+     "ar": "اسم المسؤول",
+     "type": "text",
+     "req": true,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "position",
+     "en": "Position",
+     "ar": "المنصب",
+     "type": "text",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "email",
+     "en": "Email",
+     "ar": "البريد الإلكتروني",
+     "type": "email",
+     "req": true,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "phone",
+     "en": "Phone",
+     "ar": "الهاتف",
+     "type": "tel",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "country",
+     "en": "Country",
+     "ar": "الدولة",
+     "type": "text",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "area",
+     "en": "Area of interest",
+     "ar": "مجال الاهتمام",
+     "type": "select",
+     "req": true,
+     "full": false,
+     "opts": [
+      [
+       "Research & development",
+       "البحث والتطوير"
+      ],
+      [
+       "Community development",
+       "تنمية المجتمع"
+      ],
+      [
+       "Governance",
+       "الحوكمة"
+      ],
+      [
+       "Climate resilience",
+       "القدرة على مواجهة تغيّر المناخ"
+      ],
+      [
+       "Economic empowerment",
+       "التمكين الاقتصادي"
+      ],
+      [
+       "Peacebuilding",
+       "بناء السلام"
+      ],
+      [
+       "Training & capacity building",
+       "التدريب وبناء القدرات"
+      ]
+     ]
+    },
+    {
+     "name": "duration",
+     "en": "Proposed partnership period",
+     "ar": "مدة الشراكة المقترحة",
+     "type": "select",
+     "req": false,
+     "full": false,
+     "opts": [
+      [
+       "Under 1 year",
+       "أقل من سنة"
+      ],
+      [
+       "1–3 years",
+       "1–3 سنوات"
+      ],
+      [
+       "3+ years",
+       "أكثر من 3 سنوات"
+      ]
+     ]
+    },
+    {
+     "name": "website",
+     "en": "Website",
+     "ar": "الموقع الإلكتروني",
+     "type": "url",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "message",
+     "en": "Describe the proposed partnership",
+     "ar": "صف الشراكة المقترحة",
+     "type": "textarea",
+     "req": true,
+     "full": true,
+     "opts": null
+    }
+   ]
+  },
+  "institutional": {
+   "en": "Institutional collaboration request",
+   "ar": "طلب تعاون مؤسسي",
+   "fields": [
+    {
+     "name": "org",
+     "en": "Institution name",
+     "ar": "اسم المؤسسة",
+     "type": "text",
+     "req": true,
+     "full": true,
+     "opts": null
+    },
+    {
+     "name": "orgType",
+     "en": "Institution type",
+     "ar": "نوع المؤسسة",
+     "type": "select",
+     "req": true,
+     "full": false,
+     "opts": [
+      [
+       "University",
+       "جامعة"
+      ],
+      [
+       "Research centre",
+       "مركز بحثي"
+      ],
+      [
+       "Public institution",
+       "مؤسسة عامة"
+      ],
+      [
+       "Training institute",
+       "معهد تدريب"
+      ],
+      [
+       "Other",
+       "أخرى"
+      ]
+     ]
+    },
+    {
+     "name": "name",
+     "en": "Contact person",
+     "ar": "اسم المسؤول",
+     "type": "text",
+     "req": true,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "position",
+     "en": "Position",
+     "ar": "المنصب",
+     "type": "text",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "email",
+     "en": "Email",
+     "ar": "البريد الإلكتروني",
+     "type": "email",
+     "req": true,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "phone",
+     "en": "Phone",
+     "ar": "الهاتف",
+     "type": "tel",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "country",
+     "en": "Country",
+     "ar": "الدولة",
+     "type": "text",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "collab",
+     "en": "Type of collaboration",
+     "ar": "نوع التعاون",
+     "type": "select",
+     "req": true,
+     "full": false,
+     "opts": [
+      [
+       "Joint research",
+       "بحث مشترك"
+      ],
+      [
+       "Training & courses",
+       "تدريب ودورات"
+      ],
+      [
+       "Staff / student exchange",
+       "تبادل الكوادر / الطلاب"
+      ],
+      [
+       "Joint publications",
+       "منشورات مشتركة"
+      ],
+      [
+       "Events & conferences",
+       "فعاليات ومؤتمرات"
+      ]
+     ]
+    },
+    {
+     "name": "website",
+     "en": "Website",
+     "ar": "الموقع الإلكتروني",
+     "type": "url",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "message",
+     "en": "Proposed collaboration details",
+     "ar": "تفاصيل التعاون المقترح",
+     "type": "textarea",
+     "req": true,
+     "full": true,
+     "opts": null
+    }
+   ]
+  },
+  "devPartners": {
+   "en": "Development partner enquiry",
+   "ar": "استفسار شريك تنموي",
+   "fields": [
+    {
+     "name": "org",
+     "en": "Organization name",
+     "ar": "اسم المنظمة",
+     "type": "text",
+     "req": true,
+     "full": true,
+     "opts": null
+    },
+    {
+     "name": "orgType",
+     "en": "Partner type",
+     "ar": "نوع الشريك",
+     "type": "select",
+     "req": true,
+     "full": false,
+     "opts": [
+      [
+       "Bilateral donor",
+       "مانح ثنائي"
+      ],
+      [
+       "UN agency",
+       "وكالة أممية"
+      ],
+      [
+       "International NGO",
+       "منظمة دولية غير حكومية"
+      ],
+      [
+       "Local NGO",
+       "منظمة محلية"
+      ],
+      [
+       "Foundation",
+       "مؤسسة"
+      ],
+      [
+       "Other",
+       "أخرى"
+      ]
+     ]
+    },
+    {
+     "name": "name",
+     "en": "Contact person",
+     "ar": "اسم المسؤول",
+     "type": "text",
+     "req": true,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "position",
+     "en": "Position",
+     "ar": "المنصب",
+     "type": "text",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "email",
+     "en": "Email",
+     "ar": "البريد الإلكتروني",
+     "type": "email",
+     "req": true,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "phone",
+     "en": "Phone",
+     "ar": "الهاتف",
+     "type": "tel",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "country",
+     "en": "Country",
+     "ar": "الدولة",
+     "type": "text",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "area",
+     "en": "Thematic area",
+     "ar": "المجال المواضيعي",
+     "type": "select",
+     "req": true,
+     "full": false,
+     "opts": [
+      [
+       "Research & development",
+       "البحث والتطوير"
+      ],
+      [
+       "Community development",
+       "تنمية المجتمع"
+      ],
+      [
+       "Governance",
+       "الحوكمة"
+      ],
+      [
+       "Climate resilience",
+       "القدرة على مواجهة تغيّر المناخ"
+      ],
+      [
+       "Economic empowerment",
+       "التمكين الاقتصادي"
+      ],
+      [
+       "Peacebuilding",
+       "بناء السلام"
+      ],
+      [
+       "Training & capacity building",
+       "التدريب وبناء القدرات"
+      ]
+     ]
+    },
+    {
+     "name": "support",
+     "en": "Type of support",
+     "ar": "نوع الدعم",
+     "type": "select",
+     "req": false,
+     "full": false,
+     "opts": [
+      [
+       "Programme funding",
+       "تمويل برامج"
+      ],
+      [
+       "Research commission",
+       "تكليف بحثي"
+      ],
+      [
+       "Evaluation / assessment",
+       "تقييم"
+      ],
+      [
+       "Technical partnership",
+       "شراكة فنية"
+      ]
+     ]
+    },
+    {
+     "name": "location",
+     "en": "Target location(s)",
+     "ar": "المواقع المستهدفة",
+     "type": "text",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "message",
+     "en": "Programme or opportunity description",
+     "ar": "وصف البرنامج أو الفرصة",
+     "type": "textarea",
+     "req": true,
+     "full": true,
+     "opts": null
+    }
+   ]
+  },
+  "joinUs": {
+   "en": "Join the NIKON Institute",
+   "ar": "انضم إلى معهد نيكون",
+   "fields": [
+    {
+     "name": "name",
+     "en": "Full name",
+     "ar": "الاسم الكامل",
+     "type": "text",
+     "req": true,
+     "full": true,
+     "opts": null
+    },
+    {
+     "name": "email",
+     "en": "Email",
+     "ar": "البريد الإلكتروني",
+     "type": "email",
+     "req": true,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "phone",
+     "en": "Phone",
+     "ar": "الهاتف",
+     "type": "tel",
+     "req": true,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "role",
+     "en": "I want to join as",
+     "ar": "أرغب بالانضمام بصفة",
+     "type": "select",
+     "req": true,
+     "full": false,
+     "opts": [
+      [
+       "Researcher",
+       "باحث"
+      ],
+      [
+       "Trainer / facilitator",
+       "مدرّب / ميسّر"
+      ],
+      [
+       "Volunteer",
+       "متطوع"
+      ],
+      [
+       "Intern",
+       "متدرّب"
+      ],
+      [
+       "Partner organization",
+       "منظمة شريكة"
+      ]
+     ]
+    },
+    {
+     "name": "city",
+     "en": "City / country",
+     "ar": "المدينة / الدولة",
+     "type": "text",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "education",
+     "en": "Highest qualification",
+     "ar": "أعلى مؤهل",
+     "type": "select",
+     "req": false,
+     "full": false,
+     "opts": [
+      [
+       "Diploma",
+       "دبلوم"
+      ],
+      [
+       "Bachelor's",
+       "بكالوريوس"
+      ],
+      [
+       "Master's",
+       "ماجستير"
+      ],
+      [
+       "PhD",
+       "دكتوراه"
+      ]
+     ]
+    },
+    {
+     "name": "expertise",
+     "en": "Area of expertise",
+     "ar": "مجال الخبرة",
+     "type": "text",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "cv",
+     "en": "CV / LinkedIn link",
+     "ar": "رابط السيرة الذاتية / لينكدإن",
+     "type": "url",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "message",
+     "en": "Why do you want to join us?",
+     "ar": "لماذا ترغب بالانضمام إلينا؟",
+     "type": "textarea",
+     "req": true,
+     "full": true,
+     "opts": null
+    }
+   ]
+  },
+  "contact": {
+   "en": "Enquiry",
+   "ar": "استفسار",
+   "eyebrow": {
+    "en": "Send us a message",
+    "ar": "راسلنا"
+   },
+   "fields": [
+    {
+     "name": "name",
+     "en": "Full name",
+     "ar": "الاسم الكامل",
+     "type": "text",
+     "req": true,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "email",
+     "en": "Email",
+     "ar": "البريد الإلكتروني",
+     "type": "email",
+     "req": true,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "phone",
+     "en": "Phone",
+     "ar": "الهاتف",
+     "type": "tel",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "orgName",
+     "en": "Organization (optional)",
+     "ar": "المنظمة (اختياري)",
+     "type": "text",
+     "req": false,
+     "full": false,
+     "opts": null
+    },
+    {
+     "name": "subject",
+     "en": "Subject",
+     "ar": "الموضوع",
+     "type": "select",
+     "req": true,
+     "full": true,
+     "opts": [
+      [
+       "General enquiry",
+       "استفسار عام"
+      ],
+      [
+       "Research",
+       "البحث"
+      ],
+      [
+       "Training",
+       "التدريب"
+      ],
+      [
+       "Partnership",
+       "الشراكة"
+      ],
+      [
+       "Media",
+       "الإعلام"
+      ],
+      [
+       "Other",
+       "أخرى"
+      ]
+     ]
+    },
+    {
+     "name": "message",
+     "en": "Your message",
+     "ar": "رسالتك",
+     "type": "textarea",
+     "req": true,
+     "full": true,
+     "opts": null
+    }
+   ]
+  }
+ },
+ "ui": {
+  "en": {
+   "eyebrow": "Application form",
+   "choose": "Select…",
+   "submit": "Submit",
+   "note": "Fields marked * are required. Your email app will open with the form ready to send to info@nikoninstitute.org.",
+   "sentTitle": "Thank you — almost done.",
+   "sentText": "Your email app has opened with your details. Press send to deliver it to our team.",
+   "missing": "Please complete: ",
+   "badEmail": "Please enter a valid email address."
+  },
+  "ar": {
+   "eyebrow": "استمارة الطلب",
+   "choose": "اختر…",
+   "submit": "إرسال",
+   "note": "الحقول المميزة بـ * مطلوبة. سيُفتح تطبيق البريد لديك والاستمارة جاهزة للإرسال إلى info@nikoninstitute.org.",
+   "sentTitle": "شكرًا لك — خطوة أخيرة.",
+   "sentText": "فُتح تطبيق البريد ببياناتك. اضغط إرسال لتصل إلى فريقنا.",
+   "missing": "يرجى استكمال: ",
+   "badEmail": "يرجى إدخال بريد إلكتروني صحيح."
+  }
+ }
+}

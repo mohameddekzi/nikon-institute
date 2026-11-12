@@ -1,0 +1,1076 @@
+{
+ "pages": [
+  {
+   "key": "grp_menuAbout",
+   "slug": "about",
+   "parent": null,
+   "order": 1,
+   "tab": false,
+   "title": {
+    "en": "About us",
+    "ar": "من نحن"
+   },
+   "h1": {
+    "en": "About us",
+    "ar": "من نحن"
+   },
+   "children": [
+    "whoWeAre",
+    "vision",
+    "values",
+    "govern",
+    "objectives",
+    "chairman",
+    "pillars"
+   ],
+   "content": {
+    "en": "<!-- wp:html -->\n<div style=\"display:flex;flex-wrap:wrap;gap:24px\"><a href=\"{{link:whoWeAre}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Who we are</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">An independent institute connecting policy, evidence and action.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:vision}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Vision & mission</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Inclusive, timely and reliable data driving sustainable development across the Horn of Africa.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:values}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Core values</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Five values guide how we research, partner and serve communities.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:govern}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Leadership & governance</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">An experienced team leads the Institute with innovation, integrity and a deep commitment to the communities we serve.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a></div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<div style=\"display:flex;flex-wrap:wrap;gap:24px\"><a href=\"{{link:whoWeAre}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">من نحن</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">معهد مستقل يربط بين السياسات والأدلة والعمل.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:vision}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">الرؤية والرسالة</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">بيانات شاملة وموثوقة وفي حينها تقود التنمية المستدامة في القرن الأفريقي.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:values}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">قيمنا الأساسية</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">خمس قيم توجّه طريقتنا في البحث والشراكة وخدمة المجتمعات.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:govern}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">القيادة والحوكمة</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">يقود المعهد فريق متمرّس يجمع بين الابتكار والنزاهة والالتزام العميق بالمجتمعات التي نخدمها.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a></div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "",
+    "ar": ""
+   }
+  },
+  {
+   "key": "whoWeAre",
+   "slug": "who-we-are",
+   "parent": "grp_menuAbout",
+   "order": 1,
+   "tab": true,
+   "title": {
+    "en": "Who we are",
+    "ar": "من نحن"
+   },
+   "h1": {
+    "en": "Who we are",
+    "ar": "من نحن"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>An independent institute connecting policy, evidence and action.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">The NIKON Institute is a Somalia-based research, learning and development organization bridging the gap between policy, evidence and action to advance the Sustainable Development Goals.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">We work with development innovators, researchers, practitioners, policy-makers, service users and donors — strengthening human capacity through training, research and knowledge sharing.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">Our research model is anchored in the “tripartite approach to development”, where academia, the development sector and local communities work side by side.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">As a learning and evidence-making organisation, NIKON promotes equitable research and partnerships in Somalia and the Horn of Africa to inform humanitarian and development programming aligned with the 17 Sustainable Development Goals.</p>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>معهد مستقل يربط بين السياسات والأدلة والعمل.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">معهد نيكون منظمة بحثية وتعليمية وتنموية مقرّها الصومال، تعمل على سدّ الفجوة بين السياسات والأدلة والعمل للنهوض بأهداف التنمية المستدامة.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">نعمل مع المبتكرين في مجال التنمية والباحثين والممارسين وصنّاع السياسات ومستخدمي الخدمات والمانحين، لتعزيز القدرات البشرية عبر التدريب والبحث وتبادل المعرفة.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">يرتكز نموذجنا البحثي على «النهج الثلاثي للتنمية»، حيث تعمل الأوساط الأكاديمية وقطاع التنمية والمجتمعات المحلية جنبًا إلى جنب.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">بوصفنا منظمة للتعلّم وصناعة الأدلة، يعزّز معهد نيكون البحث المنصف والشراكات في الصومال والقرن الأفريقي لإثراء البرامج الإنسانية والتنموية بما يتوافق مع أهداف التنمية المستدامة السبعة عشر.</p>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "An independent institute connecting policy, evidence and action.",
+    "ar": "معهد مستقل يربط بين السياسات والأدلة والعمل."
+   }
+  },
+  {
+   "key": "vision",
+   "slug": "vision-mission",
+   "parent": "grp_menuAbout",
+   "order": 2,
+   "tab": true,
+   "title": {
+    "en": "Vision & mission",
+    "ar": "الرؤية والرسالة"
+   },
+   "h1": {
+    "en": "Vision & mission",
+    "ar": "الرؤية والرسالة"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Inclusive, timely and reliable data driving sustainable development across the Horn of Africa.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-eye\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Our vision</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">We envision a Horn of Africa where inclusive, timely and reliable data drives sustainable development and empowers informed decision-making at all levels.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-target\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Our mission</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Our mission is to generate and use quality data and research to inform policy, strengthen practice and advance sustainable development across Somalia and the Horn of Africa.</p>\n</div>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>بيانات شاملة وموثوقة وفي حينها تقود التنمية المستدامة في القرن الأفريقي.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-eye\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">رؤيتنا</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">نتطلع إلى قرن أفريقي تقود فيه البيانات الشاملة والموثوقة والمتاحة في حينها التنمية المستدامة، وتمكّن من اتخاذ قرارات مستنيرة على جميع المستويات.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-target\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">رسالتنا</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">رسالتنا هي توليد البيانات والبحوث عالية الجودة واستخدامها لإثراء السياسات وتعزيز الممارسات والنهوض بالتنمية المستدامة في الصومال والقرن الأفريقي.</p>\n</div>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Inclusive, timely and reliable data driving sustainable development across the Horn of Africa.",
+    "ar": "بيانات شاملة وموثوقة وفي حينها تقود التنمية المستدامة في القرن الأفريقي."
+   }
+  },
+  {
+   "key": "values",
+   "slug": "core-values",
+   "parent": "grp_menuAbout",
+   "order": 3,
+   "tab": true,
+   "title": {
+    "en": "Core values",
+    "ar": "قيمنا الأساسية"
+   },
+   "h1": {
+    "en": "Core values",
+    "ar": "قيمنا الأساسية"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Five values guide how we research, partner and serve communities.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-shield-check\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Accountability</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">We conduct research with transparency and responsibility, prioritising trust, ethical standards and meaningful engagement with communities.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-users-three\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Inclusion</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">We design and conduct research that is participatory and respectful, ensuring that marginalised and local communities are actively involved and their knowledge is valued.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-handshake\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Collaboration</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">We work in partnership with researchers, communities and stakeholders, fostering shared learning and co-creation to strengthen the relevance and impact of our work.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-scales\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Integrity</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">We conduct our work with honesty and respect, safeguarding the dignity, rights and knowledge of the communities we engage.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-star\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Excellence</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">We pursue quality and innovation in our work, ensuring our research delivers meaningful, practical and sustainable impact for communities.</p>\n</div>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>خمس قيم توجّه طريقتنا في البحث والشراكة وخدمة المجتمعات.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-shield-check\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">المساءلة</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">نجري بحوثنا بشفافية ومسؤولية، ونولي الأولوية للثقة والمعايير الأخلاقية والتواصل الهادف مع المجتمعات.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-users-three\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الإدماج</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">نصمّم بحوثًا تشاركية تحترم الجميع، ونضمن مشاركة المجتمعات المحلية والمهمّشة وتقدير معارفها.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-handshake\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">التعاون</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">نعمل بالشراكة مع الباحثين والمجتمعات والأطراف المعنية، ونعزّز التعلّم المشترك والابتكار المشترك لزيادة أثر عملنا.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-scales\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">النزاهة</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">نؤدي عملنا بأمانة واحترام، ونصون كرامة المجتمعات التي نعمل معها وحقوقها ومعارفها.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-star\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">التميّز</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">نسعى إلى الجودة والابتكار لتحقق بحوثنا أثرًا عمليًا ومستدامًا للمجتمعات.</p>\n</div>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Five values guide how we research, partner and serve communities.",
+    "ar": "خمس قيم توجّه طريقتنا في البحث والشراكة وخدمة المجتمعات."
+   }
+  },
+  {
+   "key": "govern",
+   "slug": "leadership-governance",
+   "parent": "grp_menuAbout",
+   "order": 4,
+   "tab": true,
+   "title": {
+    "en": "Leadership & governance",
+    "ar": "القيادة والحوكمة"
+   },
+   "h1": {
+    "en": "Leadership & governance",
+    "ar": "القيادة والحوكمة"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>An experienced team leads the Institute with innovation, integrity and a deep commitment to the communities we serve.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">Our leadership works together to design programmes with impact, strengthen partnerships and open lasting opportunities for people and institutions.</p>\n</div>\n<div style=\"margin-top: 56px;\"><div style=\"display: flex; align-items: center; gap: 14px; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: rgb(134, 105, 28);\"><span style=\"width: 36px; height: 2px; background: rgb(196, 162, 74); flex: 0 0 auto;\"></span>Board of Directors</div>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 48px 32px; margin-top: 28px;\">\n<div style=\"min-width: 0px;\"><div style=\"position: relative; aspect-ratio: 1 / 1; background: rgb(233, 228, 214); border-top: 3px solid rgb(196, 162, 74);\"><img alt=\"\" src=\"{{img:a5123e8733a9.png}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div><div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 24px; line-height: 1.2; color: rgb(23, 39, 61); margin-top: 18px;'>Dr. Mohamud A. Afrah</div><div style=\"font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 6px;\">Chairman</div><p style=\"font-size: 16px; line-height: 1.65; color: rgb(74, 87, 112); margin: 12px 0px 0px; text-wrap: pretty;\">More than 20 years in executive roles across banking, commercial operations and programme management, including work with the United Nations, international NGOs and private enterprise.</p></div>\n<div style=\"min-width: 0px;\"><div style=\"position: relative; aspect-ratio: 1 / 1; background: rgb(233, 228, 214); border-top: 3px solid rgb(196, 162, 74);\"><img alt=\"\" src=\"{{img:0f7be61a9289.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div><div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 24px; line-height: 1.2; color: rgb(23, 39, 61); margin-top: 18px;'>Mr. Ahmed Noor Mohamed Abdi</div><div style=\"font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 6px;\">Board member</div><p style=\"font-size: 16px; line-height: 1.65; color: rgb(74, 87, 112); margin: 12px 0px 0px; text-wrap: pretty;\">Senior manager in trade finance, banking and audit operations. Holds an MBA and a BA in Accounting from Sudan University.</p></div>\n<div style=\"min-width: 0px;\"><div style=\"position: relative; aspect-ratio: 1 / 1; background: rgb(233, 228, 214); border-top: 3px solid rgb(196, 162, 74);\"><img alt=\"\" src=\"{{img:b9286363ca25.png}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div><div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 24px; line-height: 1.2; color: rgb(23, 39, 61); margin-top: 18px;'>Dr. Adam Shidane Guled</div><div style=\"font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 6px;\">Board member</div><p style=\"font-size: 16px; line-height: 1.65; color: rgb(74, 87, 112); margin: 12px 0px 0px; text-wrap: pretty;\">Specialist in management and educational planning, with a master’s degree and a PhD from Omdurman Islamic University, Sudan.</p></div>\n<div style=\"min-width: 0px;\"><div style=\"position: relative; aspect-ratio: 1 / 1; background: rgb(233, 228, 214); border-top: 3px solid rgb(196, 162, 74);\"><img alt=\"\" src=\"{{img:b734aaaf9082.png}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div><div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 24px; line-height: 1.2; color: rgb(23, 39, 61); margin-top: 18px;'>Mr. Bashir Mohamed Sheikh</div><div style=\"font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 6px;\">Board member</div><p style=\"font-size: 16px; line-height: 1.65; color: rgb(74, 87, 112); margin: 12px 0px 0px; text-wrap: pretty;\">Lawyer with over twenty years of practice across commercial, property, employment, civil and administrative law.</p></div>\n<div style=\"min-width: 0px;\"><div style=\"position: relative; aspect-ratio: 1 / 1; background: rgb(233, 228, 214); border-top: 3px solid rgb(196, 162, 74);\"><img alt=\"\" src=\"{{img:03161164bcd3.png}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div><div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 24px; line-height: 1.2; color: rgb(23, 39, 61); margin-top: 18px;'>Dr. Abdirashid Adle</div><div style=\"font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 6px;\">Board member</div><p style=\"font-size: 16px; line-height: 1.65; color: rgb(74, 87, 112); margin: 12px 0px 0px; text-wrap: pretty;\">Over sixteen years in team management and leadership. Holds an MBA and a PhD in Management and Organization.</p></div>\n<div style=\"min-width: 0px;\"><div style=\"position: relative; aspect-ratio: 1 / 1; background: rgb(233, 228, 214); border-top: 3px solid rgb(196, 162, 74);\"><img alt=\"\" src=\"{{img:d57ea00b87ee.png}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div><div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 24px; line-height: 1.2; color: rgb(23, 39, 61); margin-top: 18px;'>Mr. Gulid Ibrahim Yusuf</div><div style=\"font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 6px;\">Board member</div><p style=\"font-size: 16px; line-height: 1.65; color: rgb(74, 87, 112); margin: 12px 0px 0px; text-wrap: pretty;\">Banker with more than ten years in operations and credit management. Holds a master’s degree in Islamic Finance.</p></div>\n</div></div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>يقود المعهد فريق متمرّس يجمع بين الابتكار والنزاهة والالتزام العميق بالمجتمعات التي نخدمها.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">تعمل قيادتنا معًا على تصميم برامج مؤثرة وتقوية الشراكات وفتح فرص دائمة للأفراد والمؤسسات.</p>\n</div>\n<div style=\"margin-top: 56px;\"><div style=\"display: flex; align-items: center; gap: 14px; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: rgb(134, 105, 28);\"><span style=\"width: 36px; height: 2px; background: rgb(196, 162, 74); flex: 0 0 auto;\"></span>مجلس الإدارة</div>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 48px 32px; margin-top: 28px;\">\n<div style=\"min-width: 0px;\"><div style=\"position: relative; aspect-ratio: 1 / 1; background: rgb(233, 228, 214); border-top: 3px solid rgb(196, 162, 74);\"><img alt=\"\" src=\"{{img:a5123e8733a9.png}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div><div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 24px; line-height: 1.2; color: rgb(23, 39, 61); margin-top: 18px;'>Dr. Mohamud A. Afrah</div><div style=\"font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 6px;\">رئيس مجلس الإدارة</div><p style=\"font-size: 16px; line-height: 1.65; color: rgb(74, 87, 112); margin: 12px 0px 0px; text-wrap: pretty;\">أكثر من 20 عامًا في مناصب تنفيذية في القطاع المصرفي والعمليات التجارية وإدارة البرامج، منها العمل مع الأمم المتحدة ومنظمات دولية غير حكومية والقطاع الخاص.</p></div>\n<div style=\"min-width: 0px;\"><div style=\"position: relative; aspect-ratio: 1 / 1; background: rgb(233, 228, 214); border-top: 3px solid rgb(196, 162, 74);\"><img alt=\"\" src=\"{{img:0f7be61a9289.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div><div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 24px; line-height: 1.2; color: rgb(23, 39, 61); margin-top: 18px;'>Mr. Ahmed Noor Mohamed Abdi</div><div style=\"font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 6px;\">عضو مجلس الإدارة</div><p style=\"font-size: 16px; line-height: 1.65; color: rgb(74, 87, 112); margin: 12px 0px 0px; text-wrap: pretty;\">مدير أول في تمويل التجارة والعمليات المصرفية والتدقيق. يحمل ماجستير إدارة الأعمال وبكالوريوس المحاسبة من جامعة السودان.</p></div>\n<div style=\"min-width: 0px;\"><div style=\"position: relative; aspect-ratio: 1 / 1; background: rgb(233, 228, 214); border-top: 3px solid rgb(196, 162, 74);\"><img alt=\"\" src=\"{{img:b9286363ca25.png}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div><div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 24px; line-height: 1.2; color: rgb(23, 39, 61); margin-top: 18px;'>Dr. Adam Shidane Guled</div><div style=\"font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 6px;\">عضو مجلس الإدارة</div><p style=\"font-size: 16px; line-height: 1.65; color: rgb(74, 87, 112); margin: 12px 0px 0px; text-wrap: pretty;\">متخصص في الإدارة والتخطيط التربوي، يحمل الماجستير والدكتوراه من جامعة أم درمان الإسلامية في السودان.</p></div>\n<div style=\"min-width: 0px;\"><div style=\"position: relative; aspect-ratio: 1 / 1; background: rgb(233, 228, 214); border-top: 3px solid rgb(196, 162, 74);\"><img alt=\"\" src=\"{{img:b734aaaf9082.png}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div><div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 24px; line-height: 1.2; color: rgb(23, 39, 61); margin-top: 18px;'>Mr. Bashir Mohamed Sheikh</div><div style=\"font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 6px;\">عضو مجلس الإدارة</div><p style=\"font-size: 16px; line-height: 1.65; color: rgb(74, 87, 112); margin: 12px 0px 0px; text-wrap: pretty;\">محامٍ بخبرة تتجاوز عشرين عامًا في القانون التجاري والعقاري وقانون العمل والقانون المدني والإداري.</p></div>\n<div style=\"min-width: 0px;\"><div style=\"position: relative; aspect-ratio: 1 / 1; background: rgb(233, 228, 214); border-top: 3px solid rgb(196, 162, 74);\"><img alt=\"\" src=\"{{img:03161164bcd3.png}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div><div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 24px; line-height: 1.2; color: rgb(23, 39, 61); margin-top: 18px;'>Dr. Abdirashid Adle</div><div style=\"font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 6px;\">عضو مجلس الإدارة</div><p style=\"font-size: 16px; line-height: 1.65; color: rgb(74, 87, 112); margin: 12px 0px 0px; text-wrap: pretty;\">أكثر من ستة عشر عامًا في إدارة الفرق والقيادة. يحمل ماجستير إدارة الأعمال ودكتوراه في الإدارة والتنظيم.</p></div>\n<div style=\"min-width: 0px;\"><div style=\"position: relative; aspect-ratio: 1 / 1; background: rgb(233, 228, 214); border-top: 3px solid rgb(196, 162, 74);\"><img alt=\"\" src=\"{{img:d57ea00b87ee.png}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div><div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 24px; line-height: 1.2; color: rgb(23, 39, 61); margin-top: 18px;'>Mr. Gulid Ibrahim Yusuf</div><div style=\"font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 6px;\">عضو مجلس الإدارة</div><p style=\"font-size: 16px; line-height: 1.65; color: rgb(74, 87, 112); margin: 12px 0px 0px; text-wrap: pretty;\">مصرفي بخبرة تزيد على عشر سنوات في العمليات وإدارة الائتمان. يحمل الماجستير في التمويل الإسلامي.</p></div>\n</div></div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "An experienced team leads the Institute with innovation, integrity and a deep commitment to the communities we serve.",
+    "ar": "يقود المعهد فريق متمرّس يجمع بين الابتكار والنزاهة والالتزام العميق بالمجتمعات التي نخدمها."
+   }
+  },
+  {
+   "key": "objectives",
+   "slug": "core-objectives",
+   "parent": "grp_menuAbout",
+   "order": 104,
+   "tab": false,
+   "title": {
+    "en": "Our core objectives",
+    "ar": "أهدافنا الأساسية"
+   },
+   "h1": {
+    "en": "Our core objectives",
+    "ar": "أهدافنا الأساسية"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Our objectives turn a single conviction into practice: development works best when evidence, policy and communities move together.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-magnifying-glass\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Generate evidence</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Produce rigorous, locally grounded research that informs policy and practice in Somalia and the Horn of Africa.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-graduation-cap\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Strengthen human capacity</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Build skills and knowledge through training, learning and mentorship for practitioners, institutions and communities.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-arrows-left-right\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Bridge policy and action</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Translate research findings into practical recommendations that decision-makers can use.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-handshake\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Foster co-creation</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Bring academia, the development sector and local communities together around shared priorities.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-share-network\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Share knowledge</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Publish and disseminate articles, papers, reports and books so that learning reaches those who need it.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-target\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Advance the SDGs</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Align our research, learning and partnerships with the Sustainable Development Goals.</p>\n</div>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>تترجم أهدافنا قناعة واحدة إلى ممارسة: التنمية تنجح حين تتحرك الأدلة والسياسات والمجتمعات معًا.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-magnifying-glass\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">توليد الأدلة</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">إنتاج بحوث دقيقة ومتجذّرة محليًا تُثري السياسات والممارسات في الصومال والقرن الأفريقي.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-graduation-cap\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">تعزيز القدرات البشرية</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">بناء المهارات والمعارف عبر التدريب والتعلّم والإرشاد للممارسين والمؤسسات والمجتمعات.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-arrows-left-right\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">ربط السياسات بالعمل</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">تحويل نتائج البحوث إلى توصيات عملية يستفيد منها صنّاع القرار.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-handshake\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">تعزيز الابتكار المشترك</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">جمع الأوساط الأكاديمية وقطاع التنمية والمجتمعات المحلية حول أولويات مشتركة.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-share-network\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">تبادل المعرفة</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">نشر المقالات والأوراق والتقارير والكتب لتصل المعرفة إلى من يحتاجها.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-target\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">النهوض بأهداف التنمية المستدامة</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">مواءمة بحوثنا وبرامجنا التعليمية وشراكاتنا مع أهداف التنمية المستدامة.</p>\n</div>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Our objectives turn a single conviction into practice: development works best when evidence, policy and communities move together.",
+    "ar": "تترجم أهدافنا قناعة واحدة إلى ممارسة: التنمية تنجح حين تتحرك الأدلة والسياسات والمجتمعات معًا."
+   }
+  },
+  {
+   "key": "chairman",
+   "slug": "chairmans-message",
+   "parent": "grp_menuAbout",
+   "order": 105,
+   "tab": false,
+   "title": {
+    "en": "Chairman’s message",
+    "ar": "كلمة الرئيس"
+   },
+   "h1": {
+    "en": "Chairman’s message",
+    "ar": "كلمة الرئيس"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Knowledge is where lasting development starts.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">Welcome to NIKON Institute — an independent, nonprofit research and development organization. Our purpose is to produce evidence that shapes policy, makes institutions stronger and puts communities across Somalia and the Horn of Africa in a position to lead.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">No single institution can deliver lasting progress alone. That is why our tripartite approach brings academia, development partners, government, the private sector and local communities to the same table, pairing scientific research with local knowledge so that solutions are inclusive and locally owned.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">Our work spans research and knowledge exchange, inclusive governance, education, climate resilience, economic development, community empowerment, peacebuilding and institutional capacity — all in support of the Sustainable Development Goals and Somalia’s long-term aspirations.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">To researchers, policymakers, partners and communities: work with us. Together we can turn knowledge into action and build a more resilient, inclusive and prosperous future.</p>\n</div>\n<div style=\"display: flex; align-items: center; gap: 20px; max-width: 760px; margin-top: 40px; padding-top: 28px; border-top: 1px solid rgb(230, 225, 211);\">\n<div style=\"position: relative; flex: 0 0 auto; width: 96px; height: 96px; background: rgb(233, 228, 214);\"><img alt=\"\" src=\"{{img:612482bf9eb7.png}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div><div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 24px; color: rgb(23, 39, 61);'>Dr. Mohamud A. Afrah</div><div style=\"font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 4px;\">Chairman, NIKON Institute</div></div>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>المعرفة هي نقطة انطلاق التنمية الدائمة.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">مرحبًا بكم في معهد نيكون، منظمة مستقلة غير ربحية للبحث والتنمية. غايتنا إنتاج أدلة تُثري السياسات وتقوّي المؤسسات وتمكّن المجتمعات في الصومال والقرن الأفريقي من قيادة التغيير.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">لا تستطيع مؤسسة واحدة أن تحقق تقدمًا دائمًا بمفردها. لذلك يجمع نهجنا الثلاثي الأوساط الأكاديمية وشركاء التنمية والحكومة والقطاع الخاص والمجتمعات المحلية حول طاولة واحدة، ويقرن البحث العلمي بالمعرفة المحلية لتكون الحلول شاملة ومملوكة محليًا.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">يشمل عملنا البحث وتبادل المعرفة والحوكمة الشاملة والتعليم والقدرة على مواجهة تغيّر المناخ والتنمية الاقتصادية وتمكين المجتمعات وبناء السلام وتعزيز القدرات المؤسسية، دعمًا لأهداف التنمية المستدامة وتطلعات الصومال على المدى البعيد.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">ندعو الباحثين وصنّاع السياسات والشركاء والمجتمعات إلى العمل معنا. معًا نحوّل المعرفة إلى عمل ونبني مستقبلًا أكثر صمودًا وشمولًا وازدهارًا.</p>\n</div>\n<div style=\"display: flex; align-items: center; gap: 20px; max-width: 760px; margin-top: 40px; padding-top: 28px; border-top: 1px solid rgb(230, 225, 211);\">\n<div style=\"position: relative; flex: 0 0 auto; width: 96px; height: 96px; background: rgb(233, 228, 214);\"><img alt=\"\" src=\"{{img:612482bf9eb7.png}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div><div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 24px; color: rgb(23, 39, 61);'>Dr. Mohamud A. Afrah</div><div style=\"font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 4px;\">رئيس معهد نيكون</div></div>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Knowledge is where lasting development starts.",
+    "ar": "المعرفة هي نقطة انطلاق التنمية الدائمة."
+   }
+  },
+  {
+   "key": "pillars",
+   "slug": "strategic-pillars",
+   "parent": "grp_menuAbout",
+   "order": 106,
+   "tab": false,
+   "title": {
+    "en": "Strategic pillars",
+    "ar": "الركائز الاستراتيجية"
+   },
+   "h1": {
+    "en": "Strategic pillars",
+    "ar": "الركائز الاستراتيجية"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Four pillars organise everything we do — from the questions we research to the partnerships we build.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-magnifying-glass\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Research and evidence</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Rigorous, locally grounded research that responds to real development questions.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-chalkboard-teacher\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Learning and capacity development</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Training and knowledge sharing that strengthen people and institutions.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-bank\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Policy engagement</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Dialogue with policy-makers so that evidence shapes decisions.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-handshake\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Partnership and co-creation</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Collaboration among academia, the development sector and local communities.</p>\n</div>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>أربع ركائز تنظّم كل ما نقوم به، من الأسئلة التي نبحثها إلى الشراكات التي نبنيها.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-magnifying-glass\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">البحث والأدلة</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">بحوث دقيقة ومتجذّرة محليًا تستجيب لأسئلة التنمية الفعلية.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-chalkboard-teacher\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">التعلّم وتنمية القدرات</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">تدريب وتبادل للمعرفة يقوّيان الأفراد والمؤسسات.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-bank\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الانخراط في السياسات</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">حوار مع صنّاع السياسات لتستند القرارات إلى الأدلة.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-handshake\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الشراكة والابتكار المشترك</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">تعاون بين الأوساط الأكاديمية وقطاع التنمية والمجتمعات المحلية.</p>\n</div>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Four pillars organise everything we do — from the questions we research to the partnerships we build.",
+    "ar": "أربع ركائز تنظّم كل ما نقوم به، من الأسئلة التي نبحثها إلى الشراكات التي نبنيها."
+   }
+  },
+  {
+   "key": "grp_menuPrograms",
+   "slug": "programs",
+   "parent": null,
+   "order": 2,
+   "tab": false,
+   "title": {
+    "en": "Programs",
+    "ar": "البرامج"
+   },
+   "h1": {
+    "en": "Programs",
+    "ar": "البرامج"
+   },
+   "children": [
+    "rnd",
+    "community",
+    "governance",
+    "climate",
+    "economic",
+    "peace",
+    "approach",
+    "sdg",
+    "thematic",
+    "programs"
+   ],
+   "content": {
+    "en": "<!-- wp:html -->\n<div style=\"display:flex;flex-wrap:wrap;gap:24px\"><a href=\"{{link:rnd}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Research & development</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">We generate, share and apply evidence to address complex development challenges across the region.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:community}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Community development</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Inclusive Communities & Local Resilience is NIKON’s direct-impact arm.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:governance}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Governance</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">We strengthen institutions, leadership and participatory decision-making that empower communities and promote accountability through inclusive democracy.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:climate}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Climate resilience</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Climate change continues to intensify droughts, floods, environmental degradation and resource competition across the Horn of Africa.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:economic}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Economic empowerment</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">We work with communities to co-create innovative, practical solutions that improve livelihoods and promote economic opportunity.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:peace}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Peacebuilding</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Lasting development depends on peaceful, inclusive and resilient societies.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a></div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<div style=\"display:flex;flex-wrap:wrap;gap:24px\"><a href=\"{{link:rnd}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">البحث والتطوير</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">نولّد الأدلة ونتبادلها ونطبّقها لمعالجة تحديات التنمية المعقّدة في المنطقة.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:community}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">تنمية المجتمع</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">برنامج المجتمعات الشاملة والصمود المحلي هو ذراع الأثر المباشر لمعهد نيكون.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:governance}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">الحوكمة</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">نقوّي المؤسسات والقيادة وعمليات صنع القرار التشاركية التي تمكّن المجتمعات وتعزّز المساءلة عبر الديمقراطية الشاملة.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:climate}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">القدرة على مواجهة تغيّر المناخ</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">يواصل تغيّر المناخ تفاقم الجفاف والفيضانات وتدهور البيئة والتنافس على الموارد في القرن الأفريقي.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:economic}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">التمكين الاقتصادي</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">نعمل مع المجتمعات على ابتكار حلول عملية تحسّن سبل العيش وتوسّع الفرص الاقتصادية.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:peace}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">بناء السلام</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">التنمية الدائمة تقوم على مجتمعات مسالمة وشاملة وقادرة على الصمود.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a></div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "",
+    "ar": ""
+   }
+  },
+  {
+   "key": "rnd",
+   "slug": "research-development",
+   "parent": "grp_menuPrograms",
+   "order": 1,
+   "tab": true,
+   "title": {
+    "en": "Research & development",
+    "ar": "البحث والتطوير"
+   },
+   "h1": {
+    "en": "Research & development",
+    "ar": "البحث والتطوير"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>We generate, share and apply evidence to address complex development challenges across the region.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">By integrating scientific research, indigenous knowledge and community experiences, we promote learning that informs policy, practice and sustainable solutions.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">We design and implement multidisciplinary and participatory research projects that generate evidence to inform policies, programmes and community-driven solutions.</p>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>نولّد الأدلة ونتبادلها ونطبّقها لمعالجة تحديات التنمية المعقّدة في المنطقة.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">من خلال دمج البحث العلمي والمعرفة المحلية وتجارب المجتمعات، نعزّز تعلّمًا يُثري السياسات والممارسات والحلول المستدامة.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">نصمّم وننفّذ مشاريع بحثية تشاركية متعددة التخصصات تولّد أدلة تُثري السياسات والبرامج والحلول المجتمعية.</p>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "We generate, share and apply evidence to address complex development challenges across the region.",
+    "ar": "نولّد الأدلة ونتبادلها ونطبّقها لمعالجة تحديات التنمية المعقّدة في المنطقة."
+   }
+  },
+  {
+   "key": "community",
+   "slug": "community-development",
+   "parent": "grp_menuPrograms",
+   "order": 2,
+   "tab": true,
+   "title": {
+    "en": "Community development",
+    "ar": "تنمية المجتمع"
+   },
+   "h1": {
+    "en": "Community development",
+    "ar": "تنمية المجتمع"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Inclusive Communities &amp; Local Resilience is NIKON’s direct-impact arm.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">It ensures that vulnerable, marginalised and grassroots communities are not just subjects of research, but active architects of their own economic and climate resilience.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">We prioritise locally driven approaches that build on existing assets, knowledge and capacities.</p>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>برنامج المجتمعات الشاملة والصمود المحلي هو ذراع الأثر المباشر لمعهد نيكون.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">يضمن ألا تكون المجتمعات الهشّة والمهمّشة والقاعدية مجرد موضوع للبحث، بل صانعة فاعلة لقدرتها على الصمود الاقتصادي والمناخي.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">نعطي الأولوية للنُّهج المحلية التي تبني على الأصول والمعارف والقدرات القائمة.</p>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Inclusive Communities & Local Resilience is NIKON’s direct-impact arm.",
+    "ar": "برنامج المجتمعات الشاملة والصمود المحلي هو ذراع الأثر المباشر لمعهد نيكون."
+   }
+  },
+  {
+   "key": "governance",
+   "slug": "governance",
+   "parent": "grp_menuPrograms",
+   "order": 3,
+   "tab": true,
+   "title": {
+    "en": "Governance",
+    "ar": "الحوكمة"
+   },
+   "h1": {
+    "en": "Governance",
+    "ar": "الحوكمة"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>We strengthen institutions, leadership and participatory decision-making that empower communities and promote accountability through inclusive democracy.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">We support inclusive systems that enable diverse voices — particularly those of women, youth and marginalised groups — to shape development priorities.</p>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>نقوّي المؤسسات والقيادة وعمليات صنع القرار التشاركية التي تمكّن المجتمعات وتعزّز المساءلة عبر الديمقراطية الشاملة.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">ندعم أنظمة شاملة تتيح لأصوات متنوعة — ولا سيما النساء والشباب والفئات المهمّشة — المشاركة في تحديد أولويات التنمية.</p>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "We strengthen institutions, leadership and participatory decision-making that empower communities and promote accountability through inclusive democracy.",
+    "ar": "نقوّي المؤسسات والقيادة وعمليات صنع القرار التشاركية التي تمكّن المجتمعات وتعزّز المساءلة عبر الديمقراطية الشاملة."
+   }
+  },
+  {
+   "key": "climate",
+   "slug": "climate-resilience",
+   "parent": "grp_menuPrograms",
+   "order": 4,
+   "tab": true,
+   "title": {
+    "en": "Climate resilience",
+    "ar": "القدرة على مواجهة تغيّر المناخ"
+   },
+   "h1": {
+    "en": "Climate resilience",
+    "ar": "القدرة على مواجهة تغيّر المناخ"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Climate change continues to intensify droughts, floods, environmental degradation and resource competition across the Horn of Africa.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">We support locally led adaptation strategies that strengthen resilience, protect ecosystems and improve the sustainable management of natural resources.</p>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>يواصل تغيّر المناخ تفاقم الجفاف والفيضانات وتدهور البيئة والتنافس على الموارد في القرن الأفريقي.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">ندعم استراتيجيات تكيّف بقيادة محلية تعزّز الصمود وتحمي النظم البيئية وتحسّن الإدارة المستدامة للموارد الطبيعية.</p>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Climate change continues to intensify droughts, floods, environmental degradation and resource competition across the Horn of Africa.",
+    "ar": "يواصل تغيّر المناخ تفاقم الجفاف والفيضانات وتدهور البيئة والتنافس على الموارد في القرن الأفريقي."
+   }
+  },
+  {
+   "key": "economic",
+   "slug": "economic-empowerment",
+   "parent": "grp_menuPrograms",
+   "order": 5,
+   "tab": true,
+   "title": {
+    "en": "Economic empowerment",
+    "ar": "التمكين الاقتصادي"
+   },
+   "h1": {
+    "en": "Economic empowerment",
+    "ar": "التمكين الاقتصادي"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>We work with communities to co-create innovative, practical solutions that improve livelihoods and promote economic opportunity.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">Our community empowerment and sustainable livelihoods work strengthens long-term wellbeing, prioritising locally driven approaches that build on existing assets, knowledge and capacities.</p>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>نعمل مع المجتمعات على ابتكار حلول عملية تحسّن سبل العيش وتوسّع الفرص الاقتصادية.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">يعزّز عملنا في تمكين المجتمعات وسبل العيش المستدامة الرفاه على المدى البعيد، مع إعطاء الأولوية للنُّهج المحلية التي تبني على الأصول والمعارف والقدرات القائمة.</p>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "We work with communities to co-create innovative, practical solutions that improve livelihoods and promote economic opportunity.",
+    "ar": "نعمل مع المجتمعات على ابتكار حلول عملية تحسّن سبل العيش وتوسّع الفرص الاقتصادية."
+   }
+  },
+  {
+   "key": "peace",
+   "slug": "peacebuilding",
+   "parent": "grp_menuPrograms",
+   "order": 6,
+   "tab": true,
+   "title": {
+    "en": "Peacebuilding",
+    "ar": "بناء السلام"
+   },
+   "h1": {
+    "en": "Peacebuilding",
+    "ar": "بناء السلام"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Lasting development depends on peaceful, inclusive and resilient societies.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">We facilitate dialogue, strengthen relationships and support collaborative approaches that foster trust, prevent conflict and promote social cohesion.</p>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>التنمية الدائمة تقوم على مجتمعات مسالمة وشاملة وقادرة على الصمود.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">نيسّر الحوار ونقوّي العلاقات وندعم النُّهج التعاونية التي تبني الثقة وتمنع النزاعات وتعزّز التماسك الاجتماعي.</p>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Lasting development depends on peaceful, inclusive and resilient societies.",
+    "ar": "التنمية الدائمة تقوم على مجتمعات مسالمة وشاملة وقادرة على الصمود."
+   }
+  },
+  {
+   "key": "approach",
+   "slug": "work-approach",
+   "parent": "grp_menuPrograms",
+   "order": 106,
+   "tab": false,
+   "title": {
+    "en": "Our work approach and model",
+    "ar": "منهجنا ونموذج عملنا"
+   },
+   "h1": {
+    "en": "Our work approach and model",
+    "ar": "منهجنا ونموذج عملنا"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Our approach moves beyond traditional top-down development models by fostering meaningful collaboration, shared ownership and mutual learning among all stakeholders.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-users-three\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Local communities</h3>\n<div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-style: italic; font-size: 18px; color: rgb(134, 105, 28); margin-top: 4px;'>The heart of leadership</div>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Contributes indigenous knowledge, lived experience and local leadership to ensure cultural relevance.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-buildings\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Development sector</h3>\n<div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-style: italic; font-size: 18px; color: rgb(134, 105, 28); margin-top: 4px;'>The engine of implementation</div>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Supplies resources, policy expertise and strategic partnership to scale impact.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-graduation-cap\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Academia</h3>\n<div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-style: italic; font-size: 18px; color: rgb(134, 105, 28); margin-top: 4px;'>The foundation of evidence</div>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Provides research, innovation and knowledge to ground projects in proven evidence.</p>\n</div>\n</div>\n<div style=\"margin-top: 40px; background: rgb(33, 58, 92); color: rgb(255, 255, 255); display: flex; flex-wrap: wrap;\">\n<div style=\"flex: 1 1 260px; padding: 36px 32px; background: rgb(21, 40, 66); display: flex; flex-direction: column; justify-content: center; gap: 8px;\">\n<div style=\"font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: rgb(217, 188, 106);\">The outcome</div>\n<div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 27px; line-height: 1.2;'>What collaboration makes possible</div>\n</div>\n<div style=\"flex: 1 1 260px; padding: 36px 32px;\">\n<h3 style=\"font-size: 19px; font-weight: 700; margin: 0px; color: rgb(255, 255, 255);\">Inclusive and equitable impact</h3>\n<p style=\"font-size: 16px; line-height: 1.65; color: rgb(201, 209, 222); margin: 10px 0px 0px; text-wrap: pretty;\">The final goal is achieving sustainable solutions through effective, long-term partnership.</p>\n</div>\n<div style=\"flex: 1 1 260px; padding: 36px 32px;\">\n<h3 style=\"font-size: 19px; font-weight: 700; margin: 0px; color: rgb(255, 255, 255);\">Building resilient systems</h3>\n<p style=\"font-size: 16px; line-height: 1.65; color: rgb(201, 209, 222); margin: 10px 0px 0px; text-wrap: pretty;\">Collaboration results in stronger communities and systems capable of withstanding future challenges.</p>\n</div>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>يتجاوز نهجنا نماذج التنمية التقليدية المفروضة من أعلى إلى أسفل، عبر تعزيز التعاون الهادف والملكية المشتركة والتعلّم المتبادل بين جميع أصحاب المصلحة.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-users-three\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">المجتمعات المحلية</h3>\n<div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-style: italic; font-size: 18px; color: rgb(134, 105, 28); margin-top: 4px;'>قلب القيادة</div>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">تُسهم بالمعرفة المحلية والخبرة المعيشة والقيادة المحلية لضمان الملاءمة الثقافية.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-buildings\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">قطاع التنمية</h3>\n<div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-style: italic; font-size: 18px; color: rgb(134, 105, 28); margin-top: 4px;'>محرّك التنفيذ</div>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">يوفّر الموارد والخبرة في السياسات والشراكة الاستراتيجية لتوسيع نطاق الأثر.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-graduation-cap\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الأوساط الأكاديمية</h3>\n<div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-style: italic; font-size: 18px; color: rgb(134, 105, 28); margin-top: 4px;'>أساس الأدلة</div>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">تقدّم البحث والابتكار والمعرفة لترسيخ المشاريع على أدلة مثبتة.</p>\n</div>\n</div>\n<div style=\"margin-top: 40px; background: rgb(33, 58, 92); color: rgb(255, 255, 255); display: flex; flex-wrap: wrap;\">\n<div style=\"flex: 1 1 260px; padding: 36px 32px; background: rgb(21, 40, 66); display: flex; flex-direction: column; justify-content: center; gap: 8px;\">\n<div style=\"font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: rgb(217, 188, 106);\">النتيجة</div>\n<div style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: 27px; line-height: 1.2;'>ما يتيحه التعاون</div>\n</div>\n<div style=\"flex: 1 1 260px; padding: 36px 32px;\">\n<h3 style=\"font-size: 19px; font-weight: 700; margin: 0px; color: rgb(255, 255, 255);\">أثر شامل ومنصف</h3>\n<p style=\"font-size: 16px; line-height: 1.65; color: rgb(201, 209, 222); margin: 10px 0px 0px; text-wrap: pretty;\">الهدف النهائي هو تحقيق حلول مستدامة عبر شراكة فعّالة وطويلة الأمد.</p>\n</div>\n<div style=\"flex: 1 1 260px; padding: 36px 32px;\">\n<h3 style=\"font-size: 19px; font-weight: 700; margin: 0px; color: rgb(255, 255, 255);\">بناء أنظمة قادرة على الصمود</h3>\n<p style=\"font-size: 16px; line-height: 1.65; color: rgb(201, 209, 222); margin: 10px 0px 0px; text-wrap: pretty;\">يثمر التعاون مجتمعات وأنظمة أقوى قادرة على مواجهة تحديات المستقبل.</p>\n</div>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Our approach moves beyond traditional top-down development models by fostering meaningful collaboration, shared ownership and mutual learning among all stakeholders.",
+    "ar": "يتجاوز نهجنا نماذج التنمية التقليدية المفروضة من أعلى إلى أسفل، عبر تعزيز التعاون الهادف والملكية المشتركة والتعلّم المتبادل بين جميع أصحاب المصلحة."
+   }
+  },
+  {
+   "key": "sdg",
+   "slug": "sdgs",
+   "parent": "grp_menuPrograms",
+   "order": 107,
+   "tab": false,
+   "title": {
+    "en": "Our commitment to the SDGs",
+    "ar": "التزامنا بأهداف التنمية المستدامة"
+   },
+   "h1": {
+    "en": "Our commitment to the SDGs",
+    "ar": "التزامنا بأهداف التنمية المستدامة"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>The Sustainable Development Goals give our work a shared direction and a common language with our partners.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">We advance the SDGs by generating evidence, strengthening capacity and convening the people who can turn goals into results on the ground.</p>\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<div data-ltr=\"\" style=\"font-family: Newsreader, Georgia, serif; font-size: 52px; line-height: 1; color: rgb(33, 58, 92);\">04</div>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Quality education</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Training and learning that build skills and knowledge.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<div data-ltr=\"\" style=\"font-family: Newsreader, Georgia, serif; font-size: 52px; line-height: 1; color: rgb(33, 58, 92);\">05</div>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Gender equality</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Advancing women in leadership and entrepreneurship.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<div data-ltr=\"\" style=\"font-family: Newsreader, Georgia, serif; font-size: 52px; line-height: 1; color: rgb(33, 58, 92);\">08</div>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Decent work and economic growth</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Research and skills that support livelihoods and employment.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<div data-ltr=\"\" style=\"font-family: Newsreader, Georgia, serif; font-size: 52px; line-height: 1; color: rgb(33, 58, 92);\">16</div>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Peace, justice and strong institutions</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Evidence and dialogue that strengthen governance and institutions.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<div data-ltr=\"\" style=\"font-family: Newsreader, Georgia, serif; font-size: 52px; line-height: 1; color: rgb(33, 58, 92);\">17</div>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Partnerships for the goals</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Co-creation among academia, the development sector and local communities.</p>\n</div>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>تمنح أهداف التنمية المستدامة عملنا وجهة مشتركة ولغة موحّدة مع شركائنا.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">ننهض بهذه الأهداف عبر توليد الأدلة وتعزيز القدرات وجمع الأطراف القادرة على تحويل الأهداف إلى نتائج على أرض الواقع.</p>\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<div data-ltr=\"\" style=\"font-family: Newsreader, Georgia, serif; font-size: 52px; line-height: 1; color: rgb(33, 58, 92);\">04</div>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">التعليم الجيد</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">تدريب وتعلّم يبنيان المهارات والمعارف.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<div data-ltr=\"\" style=\"font-family: Newsreader, Georgia, serif; font-size: 52px; line-height: 1; color: rgb(33, 58, 92);\">05</div>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">المساواة بين الجنسين</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">تمكين المرأة في القيادة وريادة الأعمال.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<div data-ltr=\"\" style=\"font-family: Newsreader, Georgia, serif; font-size: 52px; line-height: 1; color: rgb(33, 58, 92);\">08</div>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">العمل اللائق ونمو الاقتصاد</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">بحوث ومهارات تدعم سبل العيش وفرص العمل.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<div data-ltr=\"\" style=\"font-family: Newsreader, Georgia, serif; font-size: 52px; line-height: 1; color: rgb(33, 58, 92);\">16</div>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">السلام والعدل والمؤسسات القوية</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">أدلة وحوار يقوّيان الحوكمة والمؤسسات.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<div data-ltr=\"\" style=\"font-family: Newsreader, Georgia, serif; font-size: 52px; line-height: 1; color: rgb(33, 58, 92);\">17</div>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">عقد الشراكات لتحقيق الأهداف</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">ابتكار مشترك بين الأوساط الأكاديمية وقطاع التنمية والمجتمعات المحلية.</p>\n</div>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "The Sustainable Development Goals give our work a shared direction and a common language with our partners.",
+    "ar": "تمنح أهداف التنمية المستدامة عملنا وجهة مشتركة ولغة موحّدة مع شركائنا."
+   }
+  },
+  {
+   "key": "thematic",
+   "slug": "thematic-areas",
+   "parent": "grp_menuPrograms",
+   "order": 108,
+   "tab": false,
+   "title": {
+    "en": "Our thematic areas",
+    "ar": "مجالاتنا المواضيعية"
+   },
+   "h1": {
+    "en": "Our thematic areas",
+    "ar": "مجالاتنا المواضيعية"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Our research, learning and policy work is organised around the themes that matter most to communities in Somalia and the Horn of Africa.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-scales\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Governance and peacebuilding</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Institutions, political dialogue and social cohesion.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-book-open\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Education and skills</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Learning, training and human capacity.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-users-three\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Gender and social inclusion</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Women’s leadership, youth and marginalised groups.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-briefcase\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Livelihoods and employment</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Decent work, entrepreneurship and economic opportunity.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-globe-hemisphere-east\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Migration and displacement</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Refugees, internally displaced people and host communities.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-heartbeat\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Health and wellbeing</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Access to services and community health.</p>\n</div>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>يتمحور عملنا في البحث والتعلّم والسياسات حول القضايا الأهم للمجتمعات في الصومال والقرن الأفريقي.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-scales\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الحوكمة وبناء السلام</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">المؤسسات والحوار السياسي والتماسك الاجتماعي.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-book-open\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">التعليم والمهارات</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">التعلّم والتدريب والقدرات البشرية.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-users-three\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">النوع الاجتماعي والإدماج</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">قيادة المرأة والشباب والفئات المهمّشة.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-briefcase\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">سبل العيش والتشغيل</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">العمل اللائق وريادة الأعمال والفرص الاقتصادية.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-globe-hemisphere-east\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الهجرة والنزوح</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">اللاجئون والنازحون داخليًا والمجتمعات المضيفة.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-heartbeat\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الصحة والرفاه</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">الوصول إلى الخدمات وصحة المجتمع.</p>\n</div>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Our research, learning and policy work is organised around the themes that matter most to communities in Somalia and the Horn of Africa.",
+    "ar": "يتمحور عملنا في البحث والتعلّم والسياسات حول القضايا الأهم للمجتمعات في الصومال والقرن الأفريقي."
+   }
+  },
+  {
+   "key": "programs",
+   "slug": "our-programs",
+   "parent": "grp_menuPrograms",
+   "order": 109,
+   "tab": false,
+   "title": {
+    "en": "Our programs",
+    "ar": "برامجنا"
+   },
+   "h1": {
+    "en": "Our programs",
+    "ar": "برامجنا"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Connecting evidence with action.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">Our programmes are designed to generate knowledge, strengthen institutions and drive sustainable development across Somalia and the Horn of Africa. Our integrated approach fosters innovation, promotes informed decision-making and creates lasting impact for governments, communities and development partners.</p>\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-magnifying-glass\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Research</h3>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-bank\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Policy engagement</h3>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-chalkboard-teacher\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Capacity development</h3>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-handshake\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Strategic partnerships</h3>\n</div>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>نربط الأدلة بالعمل.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">صُمّمت برامجنا لتوليد المعرفة وتقوية المؤسسات ودفع عجلة التنمية المستدامة في الصومال والقرن الأفريقي. ويعزّز نهجنا المتكامل الابتكار ويدعم اتخاذ القرار المستنير ويُحدث أثرًا دائمًا للحكومات والمجتمعات وشركاء التنمية.</p>\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-magnifying-glass\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">البحث</h3>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-bank\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الانخراط في السياسات</h3>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-chalkboard-teacher\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">تنمية القدرات</h3>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-handshake\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الشراكات الاستراتيجية</h3>\n</div>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Connecting evidence with action.",
+    "ar": "نربط الأدلة بالعمل."
+   }
+  },
+  {
+   "key": "grp_menuTraining",
+   "slug": "training",
+   "parent": null,
+   "order": 3,
+   "tab": false,
+   "title": {
+    "en": "Training",
+    "ar": "التدريب"
+   },
+   "h1": {
+    "en": "Training",
+    "ar": "التدريب"
+   },
+   "children": [
+    "proTraining",
+    "capacity",
+    "workshops",
+    "fellowships",
+    "elearning"
+   ],
+   "content": {
+    "en": "<!-- wp:html -->\n<div style=\"display:flex;flex-wrap:wrap;gap:24px\"><a href=\"{{link:proTraining}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Professional training</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Practical training that builds the professional skills practitioners and institutions need.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:capacity}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Capacity building</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Strengthening organisations and public institutions so they can plan, deliver and learn.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:workshops}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Workshops</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Interactive workshops that bring stakeholders together to learn, share and solve problems.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:fellowships}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Fellowships</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">We support leadership development, professional exchanges and cross-learning opportunities.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:elearning}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">E-learning</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Online courses and learning resources available wherever our learners are.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a></div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<div style=\"display:flex;flex-wrap:wrap;gap:24px\"><a href=\"{{link:proTraining}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">التدريب المهني</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">تدريب عملي يبني المهارات المهنية التي يحتاجها الممارسون والمؤسسات.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:capacity}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">بناء القدرات</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">تقوية المنظمات والمؤسسات العامة لتتمكن من التخطيط والتنفيذ والتعلّم.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:workshops}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">ورش العمل</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">ورش عمل تفاعلية تجمع الأطراف المعنية للتعلّم وتبادل الخبرات وحل المشكلات.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:fellowships}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">الزمالات</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">ندعم تطوير القيادات والتبادل المهني وفرص التعلّم المتبادل.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:elearning}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">التعلّم الإلكتروني</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">دورات وموارد تعليمية عبر الإنترنت متاحة للمتعلمين أينما كانوا.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a></div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "",
+    "ar": ""
+   }
+  },
+  {
+   "key": "proTraining",
+   "slug": "professional-training",
+   "parent": "grp_menuTraining",
+   "order": 1,
+   "tab": true,
+   "title": {
+    "en": "Professional training",
+    "ar": "التدريب المهني"
+   },
+   "h1": {
+    "en": "Professional training",
+    "ar": "التدريب المهني"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Practical training that builds the professional skills practitioners and institutions need.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>تدريب عملي يبني المهارات المهنية التي يحتاجها الممارسون والمؤسسات.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Practical training that builds the professional skills practitioners and institutions need.",
+    "ar": "تدريب عملي يبني المهارات المهنية التي يحتاجها الممارسون والمؤسسات."
+   }
+  },
+  {
+   "key": "capacity",
+   "slug": "capacity-building",
+   "parent": "grp_menuTraining",
+   "order": 2,
+   "tab": true,
+   "title": {
+    "en": "Capacity building",
+    "ar": "بناء القدرات"
+   },
+   "h1": {
+    "en": "Capacity building",
+    "ar": "بناء القدرات"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Strengthening organisations and public institutions so they can plan, deliver and learn.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>تقوية المنظمات والمؤسسات العامة لتتمكن من التخطيط والتنفيذ والتعلّم.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Strengthening organisations and public institutions so they can plan, deliver and learn.",
+    "ar": "تقوية المنظمات والمؤسسات العامة لتتمكن من التخطيط والتنفيذ والتعلّم."
+   }
+  },
+  {
+   "key": "workshops",
+   "slug": "workshops",
+   "parent": "grp_menuTraining",
+   "order": 3,
+   "tab": true,
+   "title": {
+    "en": "Workshops",
+    "ar": "ورش العمل"
+   },
+   "h1": {
+    "en": "Workshops",
+    "ar": "ورش العمل"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Interactive workshops that bring stakeholders together to learn, share and solve problems.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>ورش عمل تفاعلية تجمع الأطراف المعنية للتعلّم وتبادل الخبرات وحل المشكلات.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Interactive workshops that bring stakeholders together to learn, share and solve problems.",
+    "ar": "ورش عمل تفاعلية تجمع الأطراف المعنية للتعلّم وتبادل الخبرات وحل المشكلات."
+   }
+  },
+  {
+   "key": "fellowships",
+   "slug": "fellowships",
+   "parent": "grp_menuTraining",
+   "order": 4,
+   "tab": true,
+   "title": {
+    "en": "Fellowships",
+    "ar": "الزمالات"
+   },
+   "h1": {
+    "en": "Fellowships",
+    "ar": "الزمالات"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>We support leadership development, professional exchanges and cross-learning opportunities.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">Our fellowships and exchange programmes enhance regional expertise and foster long-term collaboration across Somalia and the Horn of Africa.</p>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>ندعم تطوير القيادات والتبادل المهني وفرص التعلّم المتبادل.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">تعزّز برامج الزمالات والتبادل لدينا الخبرات الإقليمية وتبني تعاونًا طويل الأمد في الصومال والقرن الأفريقي.</p>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "We support leadership development, professional exchanges and cross-learning opportunities.",
+    "ar": "ندعم تطوير القيادات والتبادل المهني وفرص التعلّم المتبادل."
+   }
+  },
+  {
+   "key": "elearning",
+   "slug": "e-learning",
+   "parent": "grp_menuTraining",
+   "order": 5,
+   "tab": true,
+   "title": {
+    "en": "E-learning",
+    "ar": "التعلّم الإلكتروني"
+   },
+   "h1": {
+    "en": "E-learning",
+    "ar": "التعلّم الإلكتروني"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Online courses and learning resources available wherever our learners are.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>دورات وموارد تعليمية عبر الإنترنت متاحة للمتعلمين أينما كانوا.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Online courses and learning resources available wherever our learners are.",
+    "ar": "دورات وموارد تعليمية عبر الإنترنت متاحة للمتعلمين أينما كانوا."
+   }
+  },
+  {
+   "key": "grp_menuKnow",
+   "slug": "knowledge",
+   "parent": null,
+   "order": 4,
+   "tab": false,
+   "title": {
+    "en": "Knowledge",
+    "ar": "المعرفة"
+   },
+   "h1": {
+    "en": "Knowledge",
+    "ar": "المعرفة"
+   },
+   "children": [
+    "publications",
+    "briefs",
+    "resReports",
+    "studies",
+    "sharing",
+    "books"
+   ],
+   "content": {
+    "en": "<!-- wp:html -->\n<div style=\"display:flex;flex-wrap:wrap;gap:24px\"><a href=\"{{link:publications}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Publications</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Analysis and commentary from the NIKON Institute on Somalia and the Horn of Africa.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:briefs}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Policy briefs</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Research papers and policy briefs that examine development questions in depth.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:resReports}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Research reports</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Reports documenting our research findings, assessments and the Institute’s work.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:studies}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Studies</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">In-depth studies on development questions facing Somalia and the Horn of Africa.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:sharing}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Knowledge sharing</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">We translate research findings into actionable recommendations and facilitate policy discussions that influence decision-making at local, national and regional levels.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a></div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<div style=\"display:flex;flex-wrap:wrap;gap:24px\"><a href=\"{{link:publications}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">المنشورات</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">تحليلات وآراء من معهد نيكون حول الصومال والقرن الأفريقي.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:briefs}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">موجزات السياسات</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">أوراق بحثية وموجزات سياسات تتناول قضايا التنمية بعمق.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:resReports}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">التقارير البحثية</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">تقارير توثّق نتائج بحوثنا وتقييماتنا وأعمال المعهد.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:studies}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">الدراسات</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">دراسات معمّقة حول قضايا التنمية في الصومال والقرن الأفريقي.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:sharing}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">تبادل المعرفة</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">نحوّل نتائج البحوث إلى توصيات قابلة للتنفيذ، وننظّم حوارات سياساتية تؤثّر في صنع القرار على المستويات المحلية والوطنية والإقليمية.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a></div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "",
+    "ar": ""
+   }
+  },
+  {
+   "key": "publications",
+   "slug": "publications",
+   "parent": "grp_menuKnow",
+   "order": 1,
+   "tab": true,
+   "title": {
+    "en": "Publications",
+    "ar": "المنشورات"
+   },
+   "h1": {
+    "en": "Publications",
+    "ar": "المنشورات"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Analysis and commentary from the NIKON Institute on Somalia and the Horn of Africa.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"max-width: 960px; border-top: 2px solid rgb(33, 58, 92);\">\n<a class=\"scp2\" href=\"{{link:whoWeAre}}\" style=\"display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 32px; padding: 26px 0px; border-bottom: 1px solid rgb(230, 225, 211); color: rgb(23, 39, 61); transition: color 0.2s;\">\n<span style=\"flex: 0 0 150px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28);\">March 24, 2026</span>\n<span style='flex: 1 1 320px; min-width: 0px; font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(20px, 2vw, 26px); line-height: 1.28; text-wrap: pretty;'>How the Middle East war is reshaping the Horn of Africa — with a special focus on Somalia</span>\n<span style=\"color: rgb(196, 162, 74);\">→</span>\n</a>\n<a class=\"scp2\" href=\"{{link:approach}}\" style=\"display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 32px; padding: 26px 0px; border-bottom: 1px solid rgb(230, 225, 211); color: rgb(23, 39, 61); transition: color 0.2s;\">\n<span style=\"flex: 0 0 150px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28);\">March 17, 2026</span>\n<span style='flex: 1 1 320px; min-width: 0px; font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(20px, 2vw, 26px); line-height: 1.28; text-wrap: pretty;'>Nikon Institute celebrates International Women’s Day 2026: advancing women in leadership and entrepreneurship</span>\n<span style=\"color: rgb(196, 162, 74);\">→</span>\n</a>\n<a class=\"scp2\" href=\"{{link:programs}}\" style=\"display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 32px; padding: 26px 0px; border-bottom: 1px solid rgb(230, 225, 211); color: rgb(23, 39, 61); transition: color 0.2s;\">\n<span style=\"flex: 0 0 150px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28);\">July 9, 2026</span>\n<span style='flex: 1 1 320px; min-width: 0px; font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(20px, 2vw, 26px); line-height: 1.28; text-wrap: pretty;'>Somalia government, opposition agree to continue political talks</span>\n<span style=\"color: rgb(196, 162, 74);\">→</span>\n</a>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>تحليلات وآراء من معهد نيكون حول الصومال والقرن الأفريقي.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"max-width: 960px; border-top: 2px solid rgb(33, 58, 92);\">\n<a class=\"scp2\" href=\"{{link:whoWeAre}}\" style=\"display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 32px; padding: 26px 0px; border-bottom: 1px solid rgb(230, 225, 211); color: rgb(23, 39, 61); transition: color 0.2s;\">\n<span style=\"flex: 0 0 150px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28);\">24 مارس 2026</span>\n<span style='flex: 1 1 320px; min-width: 0px; font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(20px, 2vw, 26px); line-height: 1.28; text-wrap: pretty;'>كيف تعيد حرب الشرق الأوسط تشكيل القرن الأفريقي — مع تركيز خاص على الصومال</span>\n<span style=\"color: rgb(196, 162, 74);\">←</span>\n</a>\n<a class=\"scp2\" href=\"{{link:approach}}\" style=\"display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 32px; padding: 26px 0px; border-bottom: 1px solid rgb(230, 225, 211); color: rgb(23, 39, 61); transition: color 0.2s;\">\n<span style=\"flex: 0 0 150px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28);\">17 مارس 2026</span>\n<span style='flex: 1 1 320px; min-width: 0px; font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(20px, 2vw, 26px); line-height: 1.28; text-wrap: pretty;'>معهد نيكون يحتفي باليوم العالمي للمرأة 2026: تمكين المرأة في القيادة وريادة الأعمال</span>\n<span style=\"color: rgb(196, 162, 74);\">←</span>\n</a>\n<a class=\"scp2\" href=\"{{link:programs}}\" style=\"display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 32px; padding: 26px 0px; border-bottom: 1px solid rgb(230, 225, 211); color: rgb(23, 39, 61); transition: color 0.2s;\">\n<span style=\"flex: 0 0 150px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28);\">9 يوليو 2026</span>\n<span style='flex: 1 1 320px; min-width: 0px; font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(20px, 2vw, 26px); line-height: 1.28; text-wrap: pretty;'>الحكومة الصومالية والمعارضة تتفقان على مواصلة المحادثات السياسية</span>\n<span style=\"color: rgb(196, 162, 74);\">←</span>\n</a>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Analysis and commentary from the NIKON Institute on Somalia and the Horn of Africa.",
+    "ar": "تحليلات وآراء من معهد نيكون حول الصومال والقرن الأفريقي."
+   }
+  },
+  {
+   "key": "briefs",
+   "slug": "policy-briefs",
+   "parent": "grp_menuKnow",
+   "order": 2,
+   "tab": true,
+   "title": {
+    "en": "Policy briefs",
+    "ar": "موجزات السياسات"
+   },
+   "h1": {
+    "en": "Policy briefs",
+    "ar": "موجزات السياسات"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Research papers and policy briefs that examine development questions in depth.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-clipboard-text\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Policy briefs</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Short, practical recommendations for decision-makers.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-pencil-simple-line\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Working papers</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Research in progress, shared early for discussion.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-file-text\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Research papers</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Completed studies with full methods and findings.</p>\n</div>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>أوراق بحثية وموجزات سياسات تتناول قضايا التنمية بعمق.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-clipboard-text\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">موجزات السياسات</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">توصيات عملية موجزة لصنّاع القرار.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-pencil-simple-line\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">أوراق العمل</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">بحوث قيد الإعداد تُنشر مبكرًا للنقاش.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-file-text\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الأوراق البحثية</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">دراسات مكتملة بمنهجيتها ونتائجها.</p>\n</div>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Research papers and policy briefs that examine development questions in depth.",
+    "ar": "أوراق بحثية وموجزات سياسات تتناول قضايا التنمية بعمق."
+   }
+  },
+  {
+   "key": "resReports",
+   "slug": "research-reports",
+   "parent": "grp_menuKnow",
+   "order": 3,
+   "tab": true,
+   "title": {
+    "en": "Research reports",
+    "ar": "التقارير البحثية"
+   },
+   "h1": {
+    "en": "Research reports",
+    "ar": "التقارير البحثية"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Reports documenting our research findings, assessments and the Institute’s work.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-chart-bar\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Research reports</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Findings from our studies and fieldwork.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-list-checks\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Assessments and evaluations</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Evidence on what works, for partners and programmes.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-calendar-blank\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Annual reports</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">A yearly account of the Institute’s work.</p>\n</div>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>تقارير توثّق نتائج بحوثنا وتقييماتنا وأعمال المعهد.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-chart-bar\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">التقارير البحثية</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">نتائج دراساتنا وعملنا الميداني.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-list-checks\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">التقييمات</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">أدلة على ما ينجح، للشركاء والبرامج.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-calendar-blank\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">التقارير السنوية</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">عرض سنوي لأعمال المعهد.</p>\n</div>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Reports documenting our research findings, assessments and the Institute’s work.",
+    "ar": "تقارير توثّق نتائج بحوثنا وتقييماتنا وأعمال المعهد."
+   }
+  },
+  {
+   "key": "studies",
+   "slug": "studies",
+   "parent": "grp_menuKnow",
+   "order": 4,
+   "tab": true,
+   "title": {
+    "en": "Studies",
+    "ar": "الدراسات"
+   },
+   "h1": {
+    "en": "Studies",
+    "ar": "الدراسات"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>In-depth studies on development questions facing Somalia and the Horn of Africa.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>دراسات معمّقة حول قضايا التنمية في الصومال والقرن الأفريقي.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "In-depth studies on development questions facing Somalia and the Horn of Africa.",
+    "ar": "دراسات معمّقة حول قضايا التنمية في الصومال والقرن الأفريقي."
+   }
+  },
+  {
+   "key": "sharing",
+   "slug": "knowledge-sharing",
+   "parent": "grp_menuKnow",
+   "order": 5,
+   "tab": true,
+   "title": {
+    "en": "Knowledge sharing",
+    "ar": "تبادل المعرفة"
+   },
+   "h1": {
+    "en": "Knowledge sharing",
+    "ar": "تبادل المعرفة"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>We translate research findings into actionable recommendations and facilitate policy discussions that influence decision-making at local, national and regional levels.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">As a learning and evidence-making organisation, NIKON promotes equitable research and partnerships in Somalia and the Horn of Africa to inform humanitarian and development programming aligned with the 17 Sustainable Development Goals.</p>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>نحوّل نتائج البحوث إلى توصيات قابلة للتنفيذ، وننظّم حوارات سياساتية تؤثّر في صنع القرار على المستويات المحلية والوطنية والإقليمية.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">بوصفنا منظمة للتعلّم وصناعة الأدلة، يعزّز معهد نيكون البحث المنصف والشراكات في الصومال والقرن الأفريقي لإثراء البرامج الإنسانية والتنموية بما يتوافق مع أهداف التنمية المستدامة السبعة عشر.</p>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "We translate research findings into actionable recommendations and facilitate policy discussions that influence decision-making at local, national and regional levels.",
+    "ar": "نحوّل نتائج البحوث إلى توصيات قابلة للتنفيذ، وننظّم حوارات سياساتية تؤثّر في صنع القرار على المستويات المحلية والوطنية والإقليمية."
+   }
+  },
+  {
+   "key": "books",
+   "slug": "books",
+   "parent": "grp_menuKnow",
+   "order": 105,
+   "tab": false,
+   "title": {
+    "en": "Books",
+    "ar": "كتب"
+   },
+   "h1": {
+    "en": "Books",
+    "ar": "كتب"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Longer-form publications and learning resources from the Institute and its partners.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-books\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Books</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">In-depth studies on Somalia and the Horn of Africa.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-chalkboard-teacher\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Training manuals</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Materials from our training and learning programmes.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-toolbox\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Guides and toolkits</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Practical resources for practitioners.</p>\n</div>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>إصدارات مطوّلة وموارد تعليمية من المعهد وشركائه.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-books\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الكتب</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">دراسات معمّقة عن الصومال والقرن الأفريقي.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-chalkboard-teacher\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الأدلة التدريبية</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">مواد من برامجنا للتدريب والتعلّم.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-toolbox\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الأدلة الإرشادية وحقائب الأدوات</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">موارد عملية للممارسين.</p>\n</div>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Longer-form publications and learning resources from the Institute and its partners.",
+    "ar": "إصدارات مطوّلة وموارد تعليمية من المعهد وشركائه."
+   }
+  },
+  {
+   "key": "grp_menuPartner",
+   "slug": "partnerships",
+   "parent": null,
+   "order": 5,
+   "tab": false,
+   "title": {
+    "en": "Partnerships",
+    "ar": "الشراكات"
+   },
+   "h1": {
+    "en": "Partnerships",
+    "ar": "الشراكات"
+   },
+   "children": [
+    "strategic",
+    "institutional",
+    "devPartners",
+    "joinUs"
+   ],
+   "content": {
+    "en": "<!-- wp:html -->\n<div style=\"display:flex;flex-wrap:wrap;gap:24px\"><a href=\"{{link:strategic}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Strategic partnerships</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">We build strategic partnerships with universities, research institutions, governments, civil society organisations and development partners to strengthen knowledge ecosystems.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:institutional}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Institutional collaboration</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Collaboration with universities, research centres and public institutions to strengthen research and learning.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:devPartners}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Development partners</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">We work alongside UN agencies, international organisations, research centres and government institutions.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:joinUs}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Join us</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Researchers, practitioners, volunteers and organisations: there is a place for you in our work.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a></div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<div style=\"display:flex;flex-wrap:wrap;gap:24px\"><a href=\"{{link:strategic}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">الشراكات الاستراتيجية</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">نبني شراكات استراتيجية مع الجامعات ومؤسسات البحث والحكومات ومنظمات المجتمع المدني وشركاء التنمية لتعزيز منظومات المعرفة.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:institutional}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">التعاون المؤسسي</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">تعاون مع الجامعات ومراكز البحث والمؤسسات العامة لتعزيز البحث والتعلّم.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:devPartners}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">شركاء التنمية</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">نعمل جنبًا إلى جنب مع وكالات الأمم المتحدة والمنظمات الدولية ومراكز البحث والمؤسسات الحكومية.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:joinUs}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">انضم إلينا</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">باحثون وممارسون ومتطوعون ومنظمات: لكم مكان في عملنا.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a></div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "",
+    "ar": ""
+   }
+  },
+  {
+   "key": "strategic",
+   "slug": "strategic-partnerships",
+   "parent": "grp_menuPartner",
+   "order": 1,
+   "tab": true,
+   "title": {
+    "en": "Strategic partnerships",
+    "ar": "الشراكات الاستراتيجية"
+   },
+   "h1": {
+    "en": "Strategic partnerships",
+    "ar": "الشراكات الاستراتيجية"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>We build strategic partnerships with universities, research institutions, governments, civil society organisations and development partners to strengthen knowledge ecosystems.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">Tell us about your organisation and the partnership you have in mind using the form below.</p>\n</div>\n<!-- /wp:html -->\n\n<!-- wp:shortcode -->\n[ni_form type=\"strategic\"]\n<!-- /wp:shortcode -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>نبني شراكات استراتيجية مع الجامعات ومؤسسات البحث والحكومات ومنظمات المجتمع المدني وشركاء التنمية لتعزيز منظومات المعرفة.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">أخبرنا عن منظمتك والشراكة التي تقترحها عبر الاستمارة أدناه.</p>\n</div>\n<!-- /wp:html -->\n\n<!-- wp:shortcode -->\n[ni_form type=\"strategic\"]\n<!-- /wp:shortcode -->"
+   },
+   "excerpt": {
+    "en": "We build strategic partnerships with universities, research institutions, governments, civil society organisations and development partners to strengthen knowledge ecosystems.",
+    "ar": "نبني شراكات استراتيجية مع الجامعات ومؤسسات البحث والحكومات ومنظمات المجتمع المدني وشركاء التنمية لتعزيز منظومات المعرفة."
+   }
+  },
+  {
+   "key": "institutional",
+   "slug": "institutional-collaboration",
+   "parent": "grp_menuPartner",
+   "order": 2,
+   "tab": true,
+   "title": {
+    "en": "Institutional collaboration",
+    "ar": "التعاون المؤسسي"
+   },
+   "h1": {
+    "en": "Institutional collaboration",
+    "ar": "التعاون المؤسسي"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Collaboration with universities, research centres and public institutions to strengthen research and learning.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->\n\n<!-- wp:shortcode -->\n[ni_form type=\"institutional\"]\n<!-- /wp:shortcode -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>تعاون مع الجامعات ومراكز البحث والمؤسسات العامة لتعزيز البحث والتعلّم.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->\n\n<!-- wp:shortcode -->\n[ni_form type=\"institutional\"]\n<!-- /wp:shortcode -->"
+   },
+   "excerpt": {
+    "en": "Collaboration with universities, research centres and public institutions to strengthen research and learning.",
+    "ar": "تعاون مع الجامعات ومراكز البحث والمؤسسات العامة لتعزيز البحث والتعلّم."
+   }
+  },
+  {
+   "key": "devPartners",
+   "slug": "development-partners",
+   "parent": "grp_menuPartner",
+   "order": 3,
+   "tab": true,
+   "title": {
+    "en": "Development partners",
+    "ar": "شركاء التنمية"
+   },
+   "h1": {
+    "en": "Development partners",
+    "ar": "شركاء التنمية"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>We work alongside UN agencies, international organisations, research centres and government institutions.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">Stakeholders we engage include:</p>\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-globe-hemisphere-east\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">UN agencies</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">UNHCR, UNICEF, WFP, UN Women, IOM, ILO and WHO.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-hand-coins\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Funds and international partners</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">GCERF — the Global Community Engagement and Resilience Fund.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-magnifying-glass\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Research and policy centres</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">CSEP — Centre for Social and Economic Progress; ACET — African Center for Economic Transformation.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-bank\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Government</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Ministries and institutions of the Federal Government of Somalia.</p>\n</div>\n</div>\n<!-- /wp:html -->\n\n<!-- wp:shortcode -->\n[ni_form type=\"devPartners\"]\n<!-- /wp:shortcode -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>نعمل جنبًا إلى جنب مع وكالات الأمم المتحدة والمنظمات الدولية ومراكز البحث والمؤسسات الحكومية.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">من الأطراف التي نتعامل معها:</p>\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-globe-hemisphere-east\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">وكالات الأمم المتحدة</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">المفوضية السامية لشؤون اللاجئين، اليونيسف، برنامج الأغذية العالمي، هيئة الأمم المتحدة للمرأة، المنظمة الدولية للهجرة، منظمة العمل الدولية ومنظمة الصحة العالمية.</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-hand-coins\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الصناديق والشركاء الدوليون</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">الصندوق العالمي للمشاركة المجتمعية والصمود (GCERF).</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-magnifying-glass\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">مراكز البحث والسياسات</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">مركز التقدم الاجتماعي والاقتصادي (CSEP)؛ المركز الأفريقي للتحول الاقتصادي (ACET).</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-bank\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">الحكومة</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">وزارات ومؤسسات الحكومة الفيدرالية الصومالية.</p>\n</div>\n</div>\n<!-- /wp:html -->\n\n<!-- wp:shortcode -->\n[ni_form type=\"devPartners\"]\n<!-- /wp:shortcode -->"
+   },
+   "excerpt": {
+    "en": "We work alongside UN agencies, international organisations, research centres and government institutions.",
+    "ar": "نعمل جنبًا إلى جنب مع وكالات الأمم المتحدة والمنظمات الدولية ومراكز البحث والمؤسسات الحكومية."
+   }
+  },
+  {
+   "key": "joinUs",
+   "slug": "join-us",
+   "parent": "grp_menuPartner",
+   "order": 4,
+   "tab": true,
+   "title": {
+    "en": "Join us",
+    "ar": "انضم إلينا"
+   },
+   "h1": {
+    "en": "Join us",
+    "ar": "انضم إلينا"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Researchers, practitioners, volunteers and organisations: there is a place for you in our work.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->\n\n<!-- wp:shortcode -->\n[ni_form type=\"joinUs\"]\n<!-- /wp:shortcode -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>باحثون وممارسون ومتطوعون ومنظمات: لكم مكان في عملنا.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->\n\n<!-- wp:shortcode -->\n[ni_form type=\"joinUs\"]\n<!-- /wp:shortcode -->"
+   },
+   "excerpt": {
+    "en": "Researchers, practitioners, volunteers and organisations: there is a place for you in our work.",
+    "ar": "باحثون وممارسون ومتطوعون ومنظمات: لكم مكان في عملنا."
+   }
+  },
+  {
+   "key": "grp_menuNews",
+   "slug": "media-center",
+   "parent": null,
+   "order": 6,
+   "tab": false,
+   "title": {
+    "en": "Media Center",
+    "ar": "المركز الإعلامي"
+   },
+   "h1": {
+    "en": "Media Center",
+    "ar": "المركز الإعلامي"
+   },
+   "children": [
+    "newsItems",
+    "events",
+    "stories",
+    "media"
+   ],
+   "content": {
+    "en": "<!-- wp:html -->\n<div style=\"display:flex;flex-wrap:wrap;gap:24px\"><a href=\"{{link:newsItems}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">News</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Analysis and commentary from the NIKON Institute on Somalia and the Horn of Africa.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:events}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Events</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Conferences, panels, trainings and community events hosted or supported by the Institute.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:stories}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Success stories</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Stories of the people and communities whose lives our work has helped change.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a><a href=\"{{link:media}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">Media & gallery</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">Photographs from our research, training and community work.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">Read more →</span></a></div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<div style=\"display:flex;flex-wrap:wrap;gap:24px\"><a href=\"{{link:newsItems}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">الأخبار</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">تحليلات وآراء من معهد نيكون حول الصومال والقرن الأفريقي.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:events}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">الفعاليات</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">مؤتمرات وجلسات نقاش ودورات تدريبية وفعاليات مجتمعية ينظّمها المعهد أو يدعمها.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:stories}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">قصص النجاح</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">قصص أشخاص ومجتمعات أسهم عملنا في تغيير حياتهم.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a><a href=\"{{link:media}}\" class=\"ni-card-link\" style=\"flex:1 1 260px;min-width:0;display:block;background:#F6F3EA;border-top:3px solid #C4A24A;padding:32px 30px 36px;color:#17273D;text-decoration:none\"><h3 style=\"font-size:21px;font-weight:700;margin:0;color:#17273D\">الإعلام ومعرض الصور</h3><p style=\"font-size:16px;line-height:1.7;color:#4A5770;margin:14px 0 0\">صور من أعمالنا في البحث والتدريب والعمل المجتمعي.</p><span style=\"display:inline-block;margin-top:18px;color:#86691C;font-weight:600\">اقرأ المزيد ←</span></a></div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "",
+    "ar": ""
+   }
+  },
+  {
+   "key": "newsItems",
+   "slug": "news",
+   "parent": "grp_menuNews",
+   "order": 1,
+   "tab": true,
+   "title": {
+    "en": "News",
+    "ar": "الأخبار"
+   },
+   "h1": {
+    "en": "News",
+    "ar": "الأخبار"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Analysis and commentary from the NIKON Institute on Somalia and the Horn of Africa.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->\n\n<!-- wp:shortcode -->\n[ni_news]\n<!-- /wp:shortcode -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>تحليلات وآراء من معهد نيكون حول الصومال والقرن الأفريقي.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->\n\n<!-- wp:shortcode -->\n[ni_news]\n<!-- /wp:shortcode -->"
+   },
+   "excerpt": {
+    "en": "Analysis and commentary from the NIKON Institute on Somalia and the Horn of Africa.",
+    "ar": "تحليلات وآراء من معهد نيكون حول الصومال والقرن الأفريقي."
+   }
+  },
+  {
+   "key": "events",
+   "slug": "events",
+   "parent": "grp_menuNews",
+   "order": 2,
+   "tab": true,
+   "title": {
+    "en": "Events",
+    "ar": "الفعاليات"
+   },
+   "h1": {
+    "en": "Events",
+    "ar": "الفعاليات"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Conferences, panels, trainings and community events hosted or supported by the Institute.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"max-width: 960px; border-top: 2px solid rgb(33, 58, 92);\">\n<a class=\"scp2\" href=\"#\" style=\"display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 32px; padding: 26px 0px; border-bottom: 1px solid rgb(230, 225, 211); color: rgb(23, 39, 61); transition: color 0.2s;\">\n<span style=\"flex: 0 0 150px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28);\">March 8, 2026</span>\n<span style='flex: 1 1 320px; min-width: 0px; font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(20px, 2vw, 26px); line-height: 1.28; text-wrap: pretty;'>International Women’s Day 2026 — Women in Leadership and Entrepreneurship</span>\n<span style=\"color: rgb(196, 162, 74);\">→</span>\n</a>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>مؤتمرات وجلسات نقاش ودورات تدريبية وفعاليات مجتمعية ينظّمها المعهد أو يدعمها.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"max-width: 960px; border-top: 2px solid rgb(33, 58, 92);\">\n<a class=\"scp2\" href=\"#\" style=\"display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 32px; padding: 26px 0px; border-bottom: 1px solid rgb(230, 225, 211); color: rgb(23, 39, 61); transition: color 0.2s;\">\n<span style=\"flex: 0 0 150px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28);\">8 مارس 2026</span>\n<span style='flex: 1 1 320px; min-width: 0px; font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(20px, 2vw, 26px); line-height: 1.28; text-wrap: pretty;'>اليوم العالمي للمرأة 2026 — المرأة في القيادة وريادة الأعمال</span>\n<span style=\"color: rgb(196, 162, 74);\">←</span>\n</a>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Conferences, panels, trainings and community events hosted or supported by the Institute.",
+    "ar": "مؤتمرات وجلسات نقاش ودورات تدريبية وفعاليات مجتمعية ينظّمها المعهد أو يدعمها."
+   }
+  },
+  {
+   "key": "stories",
+   "slug": "success-stories",
+   "parent": "grp_menuNews",
+   "order": 3,
+   "tab": true,
+   "title": {
+    "en": "Success stories",
+    "ar": "قصص النجاح"
+   },
+   "h1": {
+    "en": "Success stories",
+    "ar": "قصص النجاح"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Stories of the people and communities whose lives our work has helped change.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>قصص أشخاص ومجتمعات أسهم عملنا في تغيير حياتهم.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Stories of the people and communities whose lives our work has helped change.",
+    "ar": "قصص أشخاص ومجتمعات أسهم عملنا في تغيير حياتهم."
+   }
+  },
+  {
+   "key": "media",
+   "slug": "media-gallery",
+   "parent": "grp_menuNews",
+   "order": 4,
+   "tab": true,
+   "title": {
+    "en": "Media & gallery",
+    "ar": "الإعلام ومعرض الصور"
+   },
+   "h1": {
+    "en": "Media & gallery",
+    "ar": "الإعلام ومعرض الصور"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Photographs from our research, training and community work.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr)); gap: 16px;\">\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:e89eebb50095.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:1c4f44c4024f.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:14a34ce3ebb2.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:9acb7d558e5f.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:542af5118533.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:665bfc2255e4.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:c862049ad9c7.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:b404479b75d6.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:43118140b9ff.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:467f84fcb55b.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:700de4197dca.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:c5cc0838b0c1.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>صور من أعمالنا في البحث والتدريب والعمل المجتمعي.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr)); gap: 16px;\">\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:e89eebb50095.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:1c4f44c4024f.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:14a34ce3ebb2.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:9acb7d558e5f.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:542af5118533.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:665bfc2255e4.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:c862049ad9c7.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:b404479b75d6.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:43118140b9ff.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:467f84fcb55b.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:700de4197dca.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n<div style=\"position: relative; aspect-ratio: 4 / 3; background: rgb(233, 228, 214); overflow: hidden;\"><img alt=\"\" src=\"{{img:c5cc0838b0c1.jpg}}\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;\"/></div>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "Photographs from our research, training and community work.",
+    "ar": "صور من أعمالنا في البحث والتدريب والعمل المجتمعي."
+   }
+  },
+  {
+   "key": "contact",
+   "slug": "contact",
+   "parent": null,
+   "order": 20,
+   "tab": false,
+   "title": {
+    "en": "Contact",
+    "ar": "اتصل بنا"
+   },
+   "h1": {
+    "en": "Get in touch",
+    "ar": "تواصل معنا"
+   },
+   "crumb": {
+    "en": "Contact",
+    "ar": "اتصل بنا"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>If you are passionate about helping people, whether through education or prevention, then you are in the right place.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px;\">\n<div style=\"flex: 1 1 280px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\"><i class=\"ph ph-phone\" style=\"display: block; font-size: 36px; line-height: 1; color: rgb(33, 58, 92); margin-bottom: 20px;\"></i><div style=\"font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgb(134, 105, 28);\">Phone</div><div style='display: flex; flex-direction: column; align-items: flex-start; gap: 8px; margin-top: 18px; font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(21px, 2vw, 26px); line-height: 1.3; color: rgb(23, 39, 61);'><a class=\"scp2\" data-ltr=\"\" dir=\"ltr\" href=\"tel:+252615343633\" style=\"color: rgb(23, 39, 61); overflow-wrap: anywhere;\">+252-615343633</a><a class=\"scp2\" data-ltr=\"\" dir=\"ltr\" href=\"tel:+252620000062\" style=\"color: rgb(23, 39, 61); overflow-wrap: anywhere;\">+252-620000062</a></div></div>\n<div style=\"flex: 1 1 280px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\"><i class=\"ph ph-envelope-simple\" style=\"display: block; font-size: 36px; line-height: 1; color: rgb(33, 58, 92); margin-bottom: 20px;\"></i><div style=\"font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgb(134, 105, 28);\">Email</div><div style='display: flex; flex-direction: column; align-items: flex-start; gap: 8px; margin-top: 18px; font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(21px, 2vw, 26px); line-height: 1.3; color: rgb(23, 39, 61);'><a class=\"scp2\" data-ltr=\"\" dir=\"ltr\" href=\"mailto:info@nikoninstitute.org\" style=\"color: rgb(23, 39, 61); overflow-wrap: anywhere;\">info@nikoninstitute.org</a></div></div>\n<div style=\"flex: 1 1 280px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\"><i class=\"ph ph-map-pin\" style=\"display: block; font-size: 36px; line-height: 1; color: rgb(33, 58, 92); margin-bottom: 20px;\"></i><div style=\"font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgb(134, 105, 28);\">Address</div><div style='display: flex; flex-direction: column; align-items: flex-start; gap: 8px; margin-top: 18px; font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(21px, 2vw, 26px); line-height: 1.3; color: rgb(23, 39, 61);'><div>Tree-Piano – KM4, Mogadishu, Somalia</div></div></div>\n</div>\n<!-- /wp:html -->\n\n<!-- wp:shortcode -->\n[ni_form type=\"contact\"]\n<!-- /wp:shortcode -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>إذا كنت شغوفًا بمساعدة الناس، سواء عبر التعليم أو الوقاية، فأنت في المكان الصحيح.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px;\">\n<div style=\"flex: 1 1 280px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\"><i class=\"ph ph-phone\" style=\"display: block; font-size: 36px; line-height: 1; color: rgb(33, 58, 92); margin-bottom: 20px;\"></i><div style=\"font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgb(134, 105, 28);\">الهاتف</div><div style='display: flex; flex-direction: column; align-items: flex-start; gap: 8px; margin-top: 18px; font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(21px, 2vw, 26px); line-height: 1.3; color: rgb(23, 39, 61);'><a class=\"scp2\" data-ltr=\"\" dir=\"ltr\" href=\"tel:+252615343633\" style=\"color: rgb(23, 39, 61); overflow-wrap: anywhere;\">+252-615343633</a><a class=\"scp2\" data-ltr=\"\" dir=\"ltr\" href=\"tel:+252620000062\" style=\"color: rgb(23, 39, 61); overflow-wrap: anywhere;\">+252-620000062</a></div></div>\n<div style=\"flex: 1 1 280px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\"><i class=\"ph ph-envelope-simple\" style=\"display: block; font-size: 36px; line-height: 1; color: rgb(33, 58, 92); margin-bottom: 20px;\"></i><div style=\"font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgb(134, 105, 28);\">البريد الإلكتروني</div><div style='display: flex; flex-direction: column; align-items: flex-start; gap: 8px; margin-top: 18px; font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(21px, 2vw, 26px); line-height: 1.3; color: rgb(23, 39, 61);'><a class=\"scp2\" data-ltr=\"\" dir=\"ltr\" href=\"mailto:info@nikoninstitute.org\" style=\"color: rgb(23, 39, 61); overflow-wrap: anywhere;\">info@nikoninstitute.org</a></div></div>\n<div style=\"flex: 1 1 280px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\"><i class=\"ph ph-map-pin\" style=\"display: block; font-size: 36px; line-height: 1; color: rgb(33, 58, 92); margin-bottom: 20px;\"></i><div style=\"font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgb(134, 105, 28);\">العنوان</div><div style='display: flex; flex-direction: column; align-items: flex-start; gap: 8px; margin-top: 18px; font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(21px, 2vw, 26px); line-height: 1.3; color: rgb(23, 39, 61);'><div>تري بيانو – كيلو 4، مقديشو، الصومال</div></div></div>\n</div>\n<!-- /wp:html -->\n\n<!-- wp:shortcode -->\n[ni_form type=\"contact\"]\n<!-- /wp:shortcode -->"
+   },
+   "excerpt": {
+    "en": "",
+    "ar": ""
+   }
+  },
+  {
+   "key": "donatePage",
+   "slug": "donate",
+   "parent": null,
+   "order": 21,
+   "tab": false,
+   "title": {
+    "en": "Donate",
+    "ar": "تبرّع"
+   },
+   "h1": {
+    "en": "Support our work",
+    "ar": "ادعم عملنا"
+   },
+   "crumb": {
+    "en": "Donate",
+    "ar": "تبرّع"
+   },
+   "content": {
+    "en": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>Your gift can help build a brighter, more equitable future for Somalia and the Horn of Africa.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">The NIKON Institute drives bold policies and innovative solutions to create resilient economies, foster sustainable growth and empower communities across Somalia and the Horn of Africa. Join us on this transformative journey and help us bring the future into focus.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">You can give by bank transfer to either of the accounts below.</p>\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-bank\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Premier Bank</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Account name: Nikon Institute — Account number: 020612833001</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-bank\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">Dahabshil Bank</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">Account name: Nikon Institute — Account number: 301019603101</p>\n</div>\n</div>\n<!-- /wp:html -->",
+    "ar": "<!-- wp:html -->\n<p style='font-family: Newsreader, \"Noto Naskh Arabic\", Georgia, serif; font-size: clamp(26px, 3vw, 38px); line-height: 1.25; color: rgb(23, 39, 61); max-width: 900px; margin: 0px 0px 32px; text-wrap: balance;'>عطاؤك يسهم في بناء مستقبل أكثر إشراقًا وإنصافًا للصومال والقرن الأفريقي.</p>\n<div style=\"display: flex; flex-direction: column; gap: 20px; max-width: 760px;\">\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">يقود معهد نيكون سياسات جريئة وحلولًا مبتكرة لبناء اقتصادات صامدة وتعزيز النمو المستدام وتمكين المجتمعات في الصومال والقرن الأفريقي. انضم إلينا في هذه الرحلة وساعدنا على صناعة المستقبل.</p>\n<p style=\"font-size: 18px; line-height: 1.8; color: rgb(53, 67, 90); margin: 0px; text-wrap: pretty;\">يمكنك التبرع عبر التحويل المصرفي إلى أحد الحسابين أدناه.</p>\n</div>\n<div style=\"display: flex; flex-wrap: wrap; gap: 24px; margin-top: 40px;\">\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-bank\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">بنك بريمير</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">اسم الحساب: Nikon Institute — رقم الحساب: 020612833001</p>\n</div>\n<div style=\"flex: 1 1 250px; min-width: 0px; background: rgb(246, 243, 234); border-top: 3px solid rgb(196, 162, 74); padding: 36px 32px 40px;\">\n<i class=\"ph ph-bank\" style=\"display: block; font-size: 46px; line-height: 1; color: rgb(33, 58, 92);\"></i>\n<h3 style=\"font-size: 22px; font-weight: 700; margin: 26px 0px 0px; color: rgb(23, 39, 61);\">بنك دهبشيل</h3>\n<p style=\"font-size: 16px; line-height: 1.7; color: rgb(74, 87, 112); margin: 16px 0px 0px; text-wrap: pretty;\">اسم الحساب: Nikon Institute — رقم الحساب: 301019603101</p>\n</div>\n</div>\n<!-- /wp:html -->"
+   },
+   "excerpt": {
+    "en": "",
+    "ar": ""
+   }
+  }
+ ],
+ "home_title": {
+  "en": "Home",
+  "ar": "الرئيسية"
+ }
+}

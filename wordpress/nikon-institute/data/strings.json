@@ -1,0 +1,18 @@
+{
+ "en": {
+  "home": "Home",
+  "donate": "Donate",
+  "contact": "Contact",
+  "readMore": "Read more",
+  "news": "News & events",
+  "latest": "Latest"
+ },
+ "ar": {
+  "home": "الرئيسية",
+  "donate": "تبرّع",
+  "contact": "اتصل بنا",
+  "readMore": "اقرأ المزيد",
+  "news": "الأخبار والفعاليات",
+  "latest": "الأحدث"
+ }
+}
