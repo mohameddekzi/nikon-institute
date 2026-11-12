@@ -175,7 +175,7 @@ add_shortcode( 'ni_news', function ( $atts ) {
 		'posts_per_page' => (int) $atts['count'],
 		'meta_query'     => 'ar' === ni_lang() // phpcs:ignore WordPress.DB.SlowDBQuery
 			? array( array( 'key' => '_ni_lang', 'value' => 'ar' ) )
-			: array( 'relation' => 'OR', array( 'key' => '_ni_lang', 'value' => 'en' ), array( 'key' => '_ni_lang', 'compare' => 'NOT EXISTS' ) ),
+			: array( array( 'key' => '_ni_lang', 'value' => 'en' ) ),
 	) );
 	$arrow = ni_is_rtl() ? '←' : '→';
 	ob_start();
@@ -218,3 +218,19 @@ add_action( 'save_post_post', function ( $id ) {
 		update_post_meta( $id, '_ni_lang', 'ar' === $_POST['ni_lang_choice'] ? 'ar' : 'en' );
 	}
 } );
+
+/* 301 redirects from old URLs (option ni_redirects: path => [key, lang]). */
+add_action( 'template_redirect', function () {
+	$map = get_option( 'ni_redirects' );
+	if ( ! $map || ! isset( $_SERVER['REQUEST_URI'] ) ) {
+		return;
+	}
+	$path = trim( strtolower( (string) wp_parse_url( esc_url_raw( wp_unslash( $_SERVER['REQUEST_URI'] ) ), PHP_URL_PATH ) ), '/' );
+	if ( isset( $map[ $path ] ) ) {
+		$url = ni_url( $map[ $path ][0], $map[ $path ][1] );
+		if ( $url && '#' !== $url && trim( (string) wp_parse_url( $url, PHP_URL_PATH ), '/' ) !== $path ) {
+			wp_safe_redirect( $url, 301 );
+			exit;
+		}
+	}
+}, 1 );
