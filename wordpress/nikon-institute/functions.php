@@ -234,3 +234,12 @@ add_action( 'template_redirect', function () {
 		}
 	}
 }, 1 );
+
+/*
+ * Elementor Pro: this theme draws its own header and footer, so claim the
+ * header/footer locations and never print Elementor's site-wide templates.
+ */
+add_action( 'elementor/theme/register_locations', function ( $manager ) {
+	$manager->register_location( 'header' );
+	$manager->register_location( 'footer' );
+} );
