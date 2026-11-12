@@ -170,7 +170,7 @@ add_shortcode( 'ni_donate', function () {
 		</div>
 		<div class="ni-banks__grid">
 			<?php foreach ( ni_banks() as $b ) : ?>
-				<?php $logo = ni_img( $b[2], 'medium' ); ?>
+				<?php $logo = ni_img( $b[2], 'full' ); ?>
 				<div class="ni-bank">
 					<div class="ni-bank__logo"><?php if ( $logo ) : ?><img src="<?php echo esc_url( $logo ); ?>" alt="<?php echo esc_attr( $b[0] ); ?>"><?php else : ?><strong><?php echo esc_html( $b[0] ); ?></strong><?php endif; ?></div>
 					<div class="ni-bank__name"><?php echo esc_html( ni_l( $b[0], $b[1] ) ); ?></div>

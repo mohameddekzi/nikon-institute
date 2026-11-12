@@ -67,7 +67,7 @@
 .ni-post-date { margin-top: 16px; font-size: 13px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: #D9BC6A; }
 .ni-tabs { display: flex; flex-wrap: wrap; gap: 4px; margin-top: clamp(36px, 4vw, 56px); }
 .ni-tabs--empty { margin-top: 0; height: clamp(40px, 5vw, 64px); }
-.ni-tab { border-top: 3px solid transparent; font-size: 15px; font-weight: 600; min-height: 52px; padding: 14px 22px; background: rgba(255, 255, 255, .08); color: #E3E8F0 !important; text-decoration: none; transition: background .2s, color .2s; display: inline-flex; align-items: center; }
+.ni-tab { border-top: 3px solid transparent; font-size: 14.5px; font-weight: 600; min-height: 52px; padding: 14px 18px; background: rgba(255, 255, 255, .08); color: #E3E8F0 !important; text-decoration: none; transition: background .2s, color .2s; display: inline-flex; align-items: center; }
 .ni-tab:hover { background: rgba(255, 255, 255, .16); }
 .ni-tab.is-active { background: #fff; color: #17273D !important; border-top-color: #C4A24A; }
 
@@ -190,8 +190,8 @@
 .ni-banks__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
 @media (max-width: 760px) { .ni-banks__grid { grid-template-columns: 1fr; } }
 .ni-bank { background: #fff; border-radius: 6px; padding: 30px 32px; border: 1px solid #E6E1D3; border-top: 4px solid #C4A24A; }
-.ni-bank__logo { height: 76px; display: flex; align-items: center; margin-bottom: 14px; }
-.ni-bank__logo img { max-height: 76px; max-width: 220px; width: auto; object-fit: contain; }
+.ni-bank__logo { height: 96px; display: flex; align-items: center; margin-bottom: 14px; }
+.ni-bank__logo img { max-height: 96px; max-width: 260px; width: auto; object-fit: contain; }
 .ni-bank__name { font-weight: 700; font-size: 18px; color: #17273D; margin-bottom: 14px; }
 .ni-bank__dl { margin: 0; display: grid; gap: 12px; }
 .ni-bank__dl > div { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 6px 16px; padding-top: 12px; border-top: 1px solid #EEEADF; }
@@ -250,7 +250,7 @@
 /* Work approach page */
 .ni-wa-intro { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(32px, 6vw, 88px); align-items: center; }
 @media (max-width: 900px) { .ni-wa-intro { grid-template-columns: 1fr; } }
-.ni-wa-intro__lead { font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-size: clamp(26px, 2.8vw, 36px); line-height: 1.3; color: #17273D; margin: 18px 0 22px; }
+.ni-wa-intro p.ni-wa-intro__lead { font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-size: clamp(26px, 2.8vw, 36px); line-height: 1.3; color: #17273D; margin: 18px 0 22px; }
 .ni-wa-intro p { font-size: 17px; line-height: 1.8; color: #4A5770; margin: 0 0 16px; }
 .ni-wa-intro__photo { position: relative; }
 .ni-wa-intro__photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 8px; display: block; }
@@ -264,7 +264,7 @@
 .ni-venn__c span { display: block; max-width: 120px; }
 .ni-venn__c--a { top: 0; left: 19%; background: rgba(196, 162, 74, .55); color: #3d2f08; align-items: flex-start; padding-top: 22%; }
 .ni-venn__c--b { bottom: 0; left: 0; background: rgba(33, 58, 92, .55); color: #0e1b2e; align-items: flex-end; justify-content: flex-start; padding: 0 0 22% 12%; }
-.ni-venn__c--c { bottom: 0; right: 0; background: rgba(46, 125, 79, .45); color: #0f2b1b; align-items: flex-end; justify-content: flex-end; padding: 0 12% 22% 0; }
+.ni-venn__c--c { bottom: 0; right: 0; background: rgba(125, 141, 166, .55); color: #0e1b2e; align-items: flex-end; justify-content: flex-end; padding: 0 12% 22% 0; }
 .ni-venn__core { position: absolute; left: 50%; top: 56%; transform: translate(-50%, -50%); background: #152842; color: #fff; border: 3px solid #C4A24A; width: 30%; aspect-ratio: 1; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 13px; font-weight: 700; line-height: 1.25; padding: 10px; }
 .ni-wa-h2 { font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-weight: 400; font-size: clamp(30px, 3.4vw, 46px); line-height: 1.1; color: #17273D; margin: 16px 0 26px; }
 .ni-wa-partners { display: grid; gap: 16px; }
@@ -283,3 +283,6 @@
 .ni-wa-outcome b { font-family: "Albert Sans", sans-serif; color: #D9BC6A; font-size: 15px; padding-top: 3px; }
 .ni-wa-outcome h4 { margin: 0 0 6px; font-size: 18px; font-weight: 700; }
 .ni-wa-outcome p { margin: 0; color: #C9D1DE; line-height: 1.7; font-size: 15.5px; }
+
+.admin-bar .ni-viewer, .admin-bar .ni-mailbox { top: 32px; }
+@media (max-width: 782px) { .admin-bar .ni-viewer, .admin-bar .ni-mailbox { top: 46px; } }
