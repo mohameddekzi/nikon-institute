@@ -243,3 +243,13 @@ add_action( 'elementor/theme/register_locations', function ( $manager ) {
 	$manager->register_location( 'header' );
 	$manager->register_location( 'footer' );
 } );
+
+/* Browser-tab icon: theme default when no Site Icon is set in Customizer. */
+add_action( 'wp_head', function () {
+	if ( has_site_icon() ) {
+		return;
+	}
+	echo '<link rel="icon" href="' . esc_url( ni_asset( 'img/favicon.ico' ) ) . '" sizes="any">' . "\n";
+	echo '<link rel="icon" type="image/png" sizes="32x32" href="' . esc_url( ni_asset( 'img/favicon-32.png' ) ) . '">' . "\n";
+	echo '<link rel="apple-touch-icon" href="' . esc_url( ni_asset( 'img/apple-touch-icon.png' ) ) . '">' . "\n";
+}, 2 );
