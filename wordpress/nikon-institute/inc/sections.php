@@ -287,3 +287,72 @@ add_action( 'wp_footer', function () {
 	</div>
 	<?php
 } );
+
+/** Is this post a long-form article (category "articles")? */
+function ni_is_article( $id = null ) {
+	return has_category( 'articles', $id ? $id : get_the_ID() );
+}
+
+/** Reading-time + author initials helpers for articles. */
+function ni_read_minutes( $id ) {
+	return max( 1, (int) round( str_word_count( wp_strip_all_tags( get_post_field( 'post_content', $id ) ) ) / 220 ) );
+}
+function ni_initials( $name ) {
+	$p = preg_split( '/\s+/', trim( preg_replace( '/^(Dr|Prof|Mr|Mrs|Ms|Eng)\.?\s+/i', '', $name ) ) );
+	return strtoupper( mb_substr( $p[0], 0, 1 ) . ( count( $p ) > 1 ? mb_substr( end( $p ), 0, 1 ) : '' ) );
+}
+
+/** [ni_articles] — long-form articles for Knowledge › Publications. */
+add_shortcode( 'ni_articles', function ( $atts ) {
+	$atts = shortcode_atts( array( 'limit' => 12 ), $atts );
+	$ar   = ni_is_rtl();
+	$base = array( 'post_type' => 'post', 'post_status' => 'publish', 'category_name' => 'articles', 'numberposts' => (int) $atts['limit'] );
+	$q    = $base;
+	if ( $ar ) {
+		$q['meta_query'] = array( array( 'key' => '_ni_lang', 'value' => 'ar' ) );
+	} else {
+		$q['meta_query'] = array( 'relation' => 'OR', array( 'key' => '_ni_lang', 'value' => 'ar', 'compare' => '!=' ), array( 'key' => '_ni_lang', 'compare' => 'NOT EXISTS' ) );
+	}
+	$posts    = get_posts( $q );
+	$fallback = false;
+	if ( $ar && ! $posts ) {
+		$posts    = get_posts( $base );
+		$fallback = (bool) $posts;
+	}
+	$arrow = $ar ? '←' : '→';
+	ob_start();
+	if ( ! $posts ) {
+		echo '<p class="ni-arts__empty">' . esc_html( ni_l( 'New articles are on the way.', 'مقالات جديدة قريبًا.' ) ) . '</p>';
+		return ob_get_clean();
+	}
+	if ( $fallback ) {
+		echo '<p class="ni-arts__note"><i class="ph ph-translate"></i> ' . esc_html( 'هذه المقالات متوفرة حاليًا باللغة الإنجليزية.' ) . '</p>';
+	}
+	echo '<div class="ni-arts">';
+	foreach ( $posts as $i => $p ) {
+		$author = get_post_meta( $p->ID, '_ni_author', true );
+		$thumb  = get_the_post_thumbnail_url( $p, 'large' );
+		$mins   = ni_read_minutes( $p->ID );
+		$lead   = 0 === $i;
+		$dir    = $fallback ? ' dir="ltr" lang="en"' : '';
+		?>
+		<a class="ni-art<?php echo $lead ? ' ni-art--lead' : ''; ?>" href="<?php echo esc_url( get_permalink( $p ) ); ?>"<?php echo $dir; ?>>
+			<span class="ni-art__media">
+				<?php if ( $thumb ) : ?><img src="<?php echo esc_url( $thumb ); ?>" alt="" loading="lazy"><?php else : ?><span class="ni-art__blank">NIKON</span><?php endif; ?>
+				<span class="ni-art__tag"><?php echo esc_html( $fallback ? 'Article' : ni_l( 'Article', 'مقال' ) ); ?></span>
+			</span>
+			<span class="ni-art__body">
+				<span class="ni-art__meta"><?php echo esc_html( get_the_date( '', $p ) ); ?> · <?php echo esc_html( ( $ar && ! $fallback ) ? sprintf( '%d دقائق للقراءة', $mins ) : sprintf( '%d min read', $mins ) ); ?></span>
+				<span class="ni-art__title"><?php echo esc_html( get_the_title( $p ) ); ?></span>
+				<?php if ( has_excerpt( $p ) ) : ?><span class="ni-art__text"><?php echo esc_html( get_the_excerpt( $p ) ); ?></span><?php endif; ?>
+				<span class="ni-art__foot">
+					<?php if ( $author ) : ?><span class="ni-art__by"><span class="ni-avatar ni-avatar--sm"><?php echo esc_html( ni_initials( $author ) ); ?></span><?php echo esc_html( $author ); ?></span><?php endif; ?>
+					<span class="ni-art__more"><?php echo esc_html( $fallback ? 'Read article' : ni_l( 'Read article', 'اقرأ المقال' ) ); ?> <?php echo esc_html( $fallback ? '→' : $arrow ); ?></span>
+				</span>
+			</span>
+		</a>
+		<?php
+	}
+	echo '</div>';
+	return ob_get_clean();
+} );
