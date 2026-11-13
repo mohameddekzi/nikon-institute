@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'NI_VERSION', '1.2.0' );
+define( 'NI_VERSION', '1.2.2' );
 define( 'NI_DIR', get_template_directory() );
 define( 'NI_URI', get_template_directory_uri() );
 
@@ -243,6 +243,8 @@ add_action( 'template_redirect', function () {
 add_action( 'elementor/theme/register_locations', function ( $manager ) {
 	$manager->register_location( 'header' );
 	$manager->register_location( 'footer' );
+	$manager->register_location( 'single' );
+	$manager->register_location( 'archive' );
 } );
 
 /* Browser-tab icon: theme default when no Site Icon is set in Customizer. */
