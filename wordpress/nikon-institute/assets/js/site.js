@@ -153,3 +153,69 @@
 		document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !box.hidden) shut(); });
 	}
 })();
+
+/* v1.3 — article enhancements: TOC, progress, drop cap, lists, pull quote */
+(function () {
+	'use strict';
+	var art = document.querySelector('.ni-article');
+	if (!art) return;
+	var bar = document.querySelector('.ni-progress span');
+	function progress() {
+		var r = art.getBoundingClientRect(), h = art.offsetHeight - window.innerHeight * 0.6;
+		var p = Math.min(1, Math.max(0, -r.top / Math.max(1, h)));
+		if (bar) bar.style.width = (p * 100).toFixed(1) + '%';
+	}
+	window.addEventListener('scroll', progress, { passive: true }); progress();
+	// drop cap on first real paragraph
+	var paras = art.querySelectorAll('p');
+	for (var i = 0; i < paras.length; i++) { var p = paras[i]; if (!p.className && p.textContent.trim().length > 140) { p.classList.add('ni-dropcap'); break; } }
+	// lists: short items -> chips, long items -> numbered steps
+	art.querySelectorAll('ol').forEach(function (ol) {
+		var items = ol.querySelectorAll(':scope > li'); var max = 0;
+		items.forEach(function (li) { max = Math.max(max, li.textContent.trim().length); });
+		ol.classList.add(max < 60 ? 'ni-chips' : 'ni-steps');
+	});
+	// closing statement -> pull quote
+	var ps = art.querySelectorAll('p');
+	if (ps.length) { var last = ps[ps.length - 1], st = last.querySelector('strong'); if (st && st.textContent.trim() === last.textContent.trim() && last.textContent.length > 60) last.classList.add('ni-pull'); }
+	// table of contents
+	var hs = art.querySelectorAll('h2'), toc = document.querySelector('.ni-toc'), list = toc ? toc.querySelector('ol') : null;
+	if (toc && list && hs.length > 2) {
+		var links = [];
+		hs.forEach(function (h, n) {
+			if (!h.id) h.id = 'section-' + (n + 1);
+			var li = document.createElement('li'), a = document.createElement('a');
+			a.href = '#' + h.id; a.textContent = h.textContent.replace(/:.*$/, '');
+			li.appendChild(a); list.appendChild(li); links.push(a);
+		});
+		toc.hidden = false;
+		var spy = function () {
+			var cur = 0; hs.forEach(function (h, n) { if (h.getBoundingClientRect().top < 160) cur = n; });
+			links.forEach(function (a, n) { a.classList.toggle('is-active', n === cur); });
+		};
+		window.addEventListener('scroll', spy, { passive: true }); spy();
+	}
+	// copy-link button feedback
+	document.addEventListener('click', function (e) { var b = e.target.closest('.ni-share__copy'); if (b) { b.classList.add('is-done'); setTimeout(function () { b.classList.remove('is-done'); }, 1600); } });
+})();
+
+/* v1.3.1 — numeric bars in article tables */
+(function () {
+  document.querySelectorAll('.ni-article table').forEach(function (t) {
+    var rows = Array.prototype.slice.call(t.querySelectorAll('tbody tr'));
+    if (!rows.length) return;
+    var data = rows.map(function (r) { var c = r.cells[r.cells.length - 1]; return { r: r, c: c, v: c ? parseFloat(c.textContent.trim()) : NaN }; });
+    var body = data.filter(function (d) { return !/total|wadar|المجموع|الإجمالي/i.test(d.r.cells[0].textContent); });
+    if (body.length < 2 || body.some(function (d) { return isNaN(d.v) || !/^\d+(\.\d+)?$/.test(d.c.textContent.trim()); })) return;
+    var max = Math.max.apply(null, body.map(function (d) { return d.v; })) || 1;
+    body.forEach(function (d) {
+      var n = d.c.textContent.trim();
+      d.c.innerHTML = '<span class="ni-bar"><span class="ni-bar__n">' + n + '</span><span class="ni-bar__t"><span class="ni-bar__f" data-w="' + (d.v / max * 100).toFixed(1) + '"></span></span></span>';
+    });
+    var fill = function () { t.querySelectorAll('.ni-bar__f').forEach(function (f) { f.style.width = f.getAttribute('data-w') + '%'; }); };
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (e) { if (e[0].isIntersecting) { fill(); io.disconnect(); } }, { threshold: .3 });
+      io.observe(t);
+    } else fill();
+  });
+})();
