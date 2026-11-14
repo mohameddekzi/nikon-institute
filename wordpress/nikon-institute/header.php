@@ -18,7 +18,7 @@ $ni_logo     = ni_json( 'assets.json' );
 
 <?php ni_part( 'utility' ); ?>
 
-<header class="ni-header">
+<header class="ni-header ni-has-mega">
 	<div class="ni-header__in">
 		<a class="ni-logo" href="<?php echo esc_url( ni_url( 'home' ) ); ?>">
 			<?php if ( has_custom_logo() ) : ?>
@@ -41,6 +41,7 @@ $ni_logo     = ni_json( 'assets.json' );
 		<a class="ni-donate" href="<?php echo esc_url( ni_url( 'donatePage' ) ); ?>"><?php echo esc_html( ni_t( 'donate' ) ); ?></a>
 		<button class="ni-burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="ni-mnav"><span></span><span></span><span></span></button>
 	</div>
+	<?php ni_mega_menu( $ni_location ); ?>
 	<nav class="ni-mnav" id="ni-mnav" aria-label="Mobile">
 		<?php
 		wp_nav_menu( array(

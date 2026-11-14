@@ -114,41 +114,7 @@
 </div>
 </div></section>
 <?php echo ni_programs_section(); // phpcs:ignore ?>
-<section data-dc-tpl="285" data-screen-label="News and events" style="background: rgb(255, 255, 255);">
-<div style="max-width: 1240px; margin: 0px auto; padding: clamp(64px, 9vw, 120px) clamp(20px, 4vw, 40px);">
-<div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-end; justify-content: space-between;">
-<div>
-<div style="display: flex; align-items: center; gap: 14px; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: rgb(134, 105, 28);"><span style="width: 36px; height: 2px; background: rgb(196, 162, 74); flex: 0 0 auto;"></span>الأحدث</div>
-<h2 style='font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-weight: 400; font-size: clamp(32px, 4vw, 52px); line-height: 1.08; letter-spacing: -0.015em; margin: 20px 0px 0px; color: rgb(23, 39, 61);'>الأخبار والفعاليات</h2>
-</div>
-<a class="scp2" href="#" style="display: inline-flex; gap: 10px; font-weight: 700; font-size: 16px; color: rgb(33, 58, 92); border-bottom: 2px solid rgb(196, 162, 74); padding-bottom: 4px;">عرض الكل <span>←</span></a>
-</div>
-<div style="display: flex; flex-wrap: wrap; gap: clamp(32px, 4vw, 56px); margin-top: clamp(36px, 5vw, 56px);">
-<article style="flex: 1.25 1 440px; min-width: 0px;">
-<div style="position: relative; aspect-ratio: 16 / 10; background: rgb(233, 228, 214);"><img alt="" src="<?php echo esc_url( ni_asset( 'img/666a4c286c48.jpg' ) ); ?>" style="position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;"/></div>
-<div style="font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28); margin-top: 24px;">9 يوليو 2026</div>
-<h3 style='font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-weight: 500; font-size: clamp(26px, 3vw, 36px); line-height: 1.15; margin: 10px 0px 0px; text-wrap: balance;'><a class="scp2" href="#" style="color: rgb(23, 39, 61);">الحكومة الصومالية والمعارضة تتفقان على مواصلة المحادثات السياسية</a></h3>
-<p style="font-size: 17px; line-height: 1.7; color: rgb(74, 87, 112); margin: 14px 0px 0px; text-wrap: pretty;">مقديشو — عقب بيان مشترك صادر عن وزارة الإعلام يوم الأربعاء، الحكومة الفيدرالية الصومالية وقادة المعارضة…</p>
-<a class="scp2" href="#" style="display: inline-flex; gap: 10px; margin-top: 18px; font-weight: 700; font-size: 15px; color: rgb(33, 58, 92);">اقرأ المزيد <span>←</span></a>
-</article>
-<div style="flex: 1 1 400px; min-width: 0px; display: flex; flex-direction: column; border-top: 1px solid rgb(230, 225, 211);">
-<article style="display: flex; gap: 22px; padding: 28px 0px; border-bottom: 1px solid rgb(230, 225, 211);">
-<div style="position: relative; flex: 0 0 auto; width: clamp(96px, 12vw, 150px); aspect-ratio: 1 / 1; background: rgb(233, 228, 214);"><img alt="" src="<?php echo esc_url( ni_asset( 'img/53664e333e03.jpg' ) ); ?>" style="position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;"/></div>
-<div style="min-width: 0px;">
-<div style="font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28);">24 مارس 2026</div>
-<h3 style='font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-weight: 500; font-size: 22px; line-height: 1.24; margin: 8px 0px 0px; text-wrap: pretty;'><a class="scp2" href="#" style="color: rgb(23, 39, 61);">كيف تعيد حرب الشرق الأوسط تشكيل القرن الأفريقي — مع تركيز خاص على الصومال</a></h3>
-</div>
-</article>
-<article style="display: flex; gap: 22px; padding: 28px 0px; border-bottom: 1px solid rgb(230, 225, 211);">
-<div style="position: relative; flex: 0 0 auto; width: clamp(96px, 12vw, 150px); aspect-ratio: 1 / 1; background: rgb(233, 228, 214);"><img alt="" src="<?php echo esc_url( ni_asset( 'img/1c4f44c4024f.jpg' ) ); ?>" style="position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block;"/></div>
-<div style="min-width: 0px;">
-<div style="font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(134, 105, 28);">17 مارس 2026</div>
-<h3 style='font-family: Newsreader, "Noto Naskh Arabic", Georgia, serif; font-weight: 500; font-size: 22px; line-height: 1.24; margin: 8px 0px 0px; text-wrap: pretty;'><a class="scp2" href="#" style="color: rgb(23, 39, 61);">معهد نيكون يحتفي باليوم العالمي للمرأة 2026: تمكين المرأة في القيادة وريادة الأعمال</a></h3>
-</div>
-</article>
-</div>
-</div>
-</div></section>
+<?php echo ni_home_news(); // phpcs:ignore ?>
 <section data-dc-tpl="319" data-screen-label="Knowledge corner" style="background: rgb(246, 243, 234);">
 <div style="max-width: 1240px; margin: 0px auto; padding: clamp(56px, 7vw, 96px) clamp(20px, 4vw, 40px);">
 <div style="display: flex; align-items: center; gap: 14px; font-size: 13px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: rgb(134, 105, 28);"><span style="width: 36px; height: 2px; background: rgb(196, 162, 74); flex: 0 0 auto;"></span>ركن المعرفة</div>

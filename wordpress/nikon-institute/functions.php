@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'NI_VERSION', '1.4.1' );
+define( 'NI_VERSION', '1.5.0' );
 define( 'NI_DIR', get_template_directory() );
 define( 'NI_URI', get_template_directory_uri() );
 
@@ -19,6 +19,7 @@ require_once NI_DIR . '/inc/importer.php';
 require_once NI_DIR . '/inc/forms.php';
 require_once NI_DIR . '/inc/admin.php';
 require_once NI_DIR . '/inc/sections.php';
+require_once NI_DIR . '/inc/mega.php';
 
 /* -------------------------------------------------------------------------
  * Setup
@@ -174,6 +175,8 @@ add_shortcode( 'ni_news', function ( $atts ) {
 	$q    = new WP_Query( array(
 		'post_type'      => 'post',
 		'posts_per_page' => (int) $atts['count'],
+		'category__in'     => ni_news_cat_ids(),
+		'category__not_in' => ni_article_cat_ids(),
 		'meta_query'     => 'ar' === ni_lang() // phpcs:ignore WordPress.DB.SlowDBQuery
 			? array( array( 'key' => '_ni_lang', 'value' => 'ar' ) )
 			: array( array( 'key' => '_ni_lang', 'value' => 'en' ) ),

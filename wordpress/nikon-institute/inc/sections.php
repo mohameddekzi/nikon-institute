@@ -304,55 +304,190 @@ function ni_initials( $name ) {
 
 /** [ni_articles] — long-form articles for Knowledge › Publications. */
 add_shortcode( 'ni_articles', function ( $atts ) {
-	$atts = shortcode_atts( array( 'limit' => 12 ), $atts );
-	$ar   = ni_is_rtl();
-	$base = array( 'post_type' => 'post', 'post_status' => 'publish', 'category_name' => 'articles', 'numberposts' => (int) $atts['limit'] );
-	$q    = $base;
-	if ( $ar ) {
-		$q['meta_query'] = array( array( 'key' => '_ni_lang', 'value' => 'ar' ) );
-	} else {
-		$q['meta_query'] = array( 'relation' => 'OR', array( 'key' => '_ni_lang', 'value' => 'ar', 'compare' => '!=' ), array( 'key' => '_ni_lang', 'compare' => 'NOT EXISTS' ) );
+	$atts  = shortcode_atts( array( 'limit' => 12 ), $atts );
+	$ar    = ni_is_rtl();
+	$all   = get_posts( array( 'post_type' => 'post', 'post_status' => 'publish', 'category_name' => 'articles', 'numberposts' => 60, 'orderby' => array( 'date' => 'DESC', 'ID' => 'DESC' ) ) );
+	$seen  = array();
+	$posts = array();
+	foreach ( $all as $p ) {
+		$lang = get_post_meta( $p->ID, '_ni_lang', true ) === 'ar' ? 'ar' : 'en';
+		if ( ! $ar && 'ar' === $lang ) {
+			continue;
+		}
+		if ( $ar && 'en' === $lang ) {
+			// Show an English article in Arabic only when it has no Arabic version.
+			$pair = (int) get_post_meta( $p->ID, '_ni_pair', true );
+			if ( $pair && 'publish' === get_post_status( $pair ) ) {
+				continue;
+			}
+		}
+		$k = strtolower( preg_replace( '/[^a-z0-9\p{Arabic}]+/iu', '', get_the_title( $p ) ) );
+		if ( isset( $seen[ $k ] ) ) {
+			continue;
+		}
+		$seen[ $k ] = 1;
+		$p->ni_en   = $ar && 'en' === $lang;
+		$posts[]    = $p;
+		if ( count( $posts ) >= (int) $atts['limit'] ) {
+			break;
+		}
 	}
-	$posts    = get_posts( $q );
-	$fallback = false;
-	if ( $ar && ! $posts ) {
-		$posts    = get_posts( $base );
-		$fallback = (bool) $posts;
-	}
-	$arrow = $ar ? '←' : '→';
 	ob_start();
 	if ( ! $posts ) {
 		echo '<p class="ni-arts__empty">' . esc_html( ni_l( 'New articles are on the way.', 'مقالات جديدة قريبًا.' ) ) . '</p>';
 		return ob_get_clean();
 	}
-	if ( $fallback ) {
-		echo '<p class="ni-arts__note"><i class="ph ph-translate"></i> ' . esc_html( 'هذه المقالات متوفرة حاليًا باللغة الإنجليزية.' ) . '</p>';
-	}
 	echo '<div class="ni-arts">';
 	foreach ( $posts as $i => $p ) {
+		$en     = ! $ar || $p->ni_en;
 		$author = get_post_meta( $p->ID, '_ni_author', true );
-		$thumb  = get_the_post_thumbnail_url( $p, 'large' );
+		$thumb  = ni_post_photo( $p );
 		$mins   = ni_read_minutes( $p->ID );
-		$lead   = 0 === $i;
-		$dir    = $fallback ? ' dir="ltr" lang="en"' : '';
+		$arrow  = $en ? '→' : '←';
 		?>
-		<a class="ni-art<?php echo $lead ? ' ni-art--lead' : ''; ?>" href="<?php echo esc_url( get_permalink( $p ) ); ?>"<?php echo $dir; ?>>
+		<a class="ni-art<?php echo 0 === $i ? ' ni-art--lead' : ''; ?>" href="<?php echo esc_url( get_permalink( $p ) ); ?>"<?php echo ( $ar && $en ) ? ' dir="ltr" lang="en"' : ''; ?>>
 			<span class="ni-art__media">
 				<?php if ( $thumb ) : ?><img src="<?php echo esc_url( $thumb ); ?>" alt="" loading="lazy"><?php else : ?><span class="ni-art__blank">NIKON</span><?php endif; ?>
-				<span class="ni-art__tag"><?php echo esc_html( $fallback ? 'Article' : ni_l( 'Article', 'مقال' ) ); ?></span>
+				<span class="ni-art__tag"><?php echo esc_html( $en ? ( $ar ? 'Article · English' : 'Article' ) : 'مقال' ); ?></span>
 			</span>
 			<span class="ni-art__body">
-				<span class="ni-art__meta"><?php echo esc_html( get_the_date( '', $p ) ); ?> · <?php echo esc_html( ( $ar && ! $fallback ) ? sprintf( '%d دقائق للقراءة', $mins ) : sprintf( '%d min read', $mins ) ); ?></span>
+				<span class="ni-art__meta"><?php echo esc_html( get_the_date( '', $p ) ); ?> · <?php echo esc_html( $en ? sprintf( '%d min read', $mins ) : sprintf( '%d دقائق للقراءة', $mins ) ); ?></span>
 				<span class="ni-art__title"><?php echo esc_html( get_the_title( $p ) ); ?></span>
-				<?php if ( has_excerpt( $p ) ) : ?><span class="ni-art__text"><?php echo esc_html( get_the_excerpt( $p ) ); ?></span><?php endif; ?>
+				<?php $sum = has_excerpt( $p ) ? get_the_excerpt( $p ) : ''; ?>
+				<?php if ( $sum ) : ?><span class="ni-art__text"><?php echo esc_html( $sum ); ?></span><?php endif; ?>
 				<span class="ni-art__foot">
 					<?php if ( $author ) : ?><span class="ni-art__by"><span class="ni-avatar ni-avatar--sm"><?php echo esc_html( ni_initials( $author ) ); ?></span><?php echo esc_html( $author ); ?></span><?php endif; ?>
-					<span class="ni-art__more"><?php echo esc_html( $fallback ? 'Read article' : ni_l( 'Read article', 'اقرأ المقال' ) ); ?> <?php echo esc_html( $fallback ? '→' : $arrow ); ?></span>
+					<span class="ni-art__more"><?php echo esc_html( $en ? 'Read article' : 'اقرأ المقال' ); ?> <?php echo esc_html( $arrow ); ?></span>
 				</span>
 			</span>
 		</a>
 		<?php
 	}
 	echo '</div>';
+	return ob_get_clean();
+} );
+
+/** Category IDs that count as news on the site (News, Events, Press release). */
+function ni_news_cat_ids() {
+	$ids = array();
+	foreach ( array( 'news', 'events', 'press-release' ) as $slug ) {
+		$t = get_category_by_slug( $slug );
+		if ( $t ) {
+			$ids[] = (int) $t->term_id;
+		}
+	}
+	return $ids;
+}
+function ni_article_cat_ids() {
+	$t = get_category_by_slug( 'articles' );
+	return $t ? array( (int) $t->term_id ) : array();
+}
+
+/** Latest news posts (no articles) in the current language. */
+function ni_latest_news( $count ) {
+	return get_posts( array(
+		'post_type'        => 'post',
+		'post_status'      => 'publish',
+		'numberposts'      => $count,
+		'category__in'     => ni_news_cat_ids(),
+		'category__not_in' => ni_article_cat_ids(),
+		'meta_query'       => array( array( 'key' => '_ni_lang', 'value' => 'ar' === ni_lang() ? 'ar' : 'en' ) ), // phpcs:ignore
+	) );
+}
+
+/** Thumbnail URL of a post, falling back to its language pair's. */
+function ni_post_photo( $p, $size = 'large' ) {
+	$u = get_the_post_thumbnail_url( $p, $size );
+	if ( ! $u ) {
+		$pair = (int) get_post_meta( $p->ID, '_ni_pair', true );
+		if ( $pair ) {
+			$u = get_the_post_thumbnail_url( $pair, $size );
+		}
+	}
+	return $u;
+}
+
+function ni_post_summary( $p, $words = 26 ) {
+	return has_excerpt( $p ) ? get_the_excerpt( $p ) : wp_trim_words( wp_strip_all_tags( strip_shortcodes( $p->post_content ) ), $words, '…' );
+}
+
+/** Home page "News & events" section. */
+function ni_home_news() {
+	$ar    = ni_is_rtl();
+	$arrow = $ar ? '←' : '→';
+	$news  = ni_latest_news( 3 );
+	$all   = ni_url( 'newsItems' );
+	ob_start();
+	?>
+	<section class="ni-hnews" data-screen-label="News and events">
+		<div class="ni-hnews__in">
+			<div class="ni-hnews__head">
+				<div>
+					<div class="ni-pubhead__eyebrow"><?php echo esc_html( ni_l( 'Latest', 'الأحدث' ) ); ?></div>
+					<h2><?php echo esc_html( ni_l( 'News & events', 'الأخبار والفعاليات' ) ); ?></h2>
+				</div>
+				<a class="ni-hnews__all" href="<?php echo esc_url( $all ); ?>"><?php echo esc_html( ni_l( 'View all', 'عرض الكل' ) ); ?> <span><?php echo esc_html( $arrow ); ?></span></a>
+			</div>
+			<div class="ni-hnews__grid">
+				<?php if ( $news ) : $lead = array_shift( $news ); $ph = ni_post_photo( $lead ); ?>
+					<article class="ni-hnews__lead">
+						<a class="ni-hnews__img" href="<?php echo esc_url( get_permalink( $lead ) ); ?>" tabindex="-1" aria-hidden="true"><?php if ( $ph ) : ?><img src="<?php echo esc_url( $ph ); ?>" alt="" loading="lazy"><?php endif; ?></a>
+						<div class="ni-hnews__date"><?php echo esc_html( get_the_date( '', $lead ) ); ?></div>
+						<h3><a href="<?php echo esc_url( get_permalink( $lead ) ); ?>"><?php echo esc_html( get_the_title( $lead ) ); ?></a></h3>
+						<p><?php echo esc_html( ni_post_summary( $lead ) ); ?></p>
+						<a class="ni-hnews__more" href="<?php echo esc_url( get_permalink( $lead ) ); ?>"><?php echo esc_html( ni_l( 'Read more', 'اقرأ المزيد' ) ); ?> <span><?php echo esc_html( $arrow ); ?></span></a>
+					</article>
+				<?php endif; ?>
+				<div class="ni-hnews__side">
+					<?php foreach ( $news as $p ) : $ph = ni_post_photo( $p, 'medium_large' ); ?>
+						<a class="ni-hnews__item" href="<?php echo esc_url( get_permalink( $p ) ); ?>">
+							<span class="ni-hnews__thumb"><?php if ( $ph ) : ?><img src="<?php echo esc_url( $ph ); ?>" alt="" loading="lazy"><?php endif; ?></span>
+							<span><span class="ni-hnews__date"><?php echo esc_html( get_the_date( '', $p ) ); ?></span><span class="ni-hnews__title"><?php echo esc_html( get_the_title( $p ) ); ?></span></span>
+						</a>
+					<?php endforeach; ?>
+					<div class="ni-hnews__hub">
+						<div class="ni-hnews__hubtitle"><i class="ph ph-broadcast"></i> <?php echo esc_html( ni_l( 'Media Center', 'المركز الإعلامي' ) ); ?></div>
+						<?php
+						foreach ( array(
+							array( 'newsItems', ni_l( 'News', 'الأخبار' ), 'ph-newspaper' ),
+							array( 'events', ni_l( 'Events', 'الفعاليات' ), 'ph-calendar-dots' ),
+							array( 'stories', ni_l( 'Success stories', 'قصص النجاح' ), 'ph-star' ),
+							array( 'media', ni_l( 'Media & gallery', 'الإعلام ومعرض الصور' ), 'ph-images' ),
+						) as $l ) :
+							?>
+							<a href="<?php echo esc_url( ni_url( $l[0] ) ); ?>"><span><i class="ph <?php echo esc_attr( $l[2] ); ?>"></i><?php echo esc_html( $l[1] ); ?></span><span><?php echo esc_html( $arrow ); ?></span></a>
+						<?php endforeach; ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<?php
+	return ob_get_clean();
+}
+
+/** [ni_heritage] — archive black & white photographs of learning in Somalia. */
+add_shortcode( 'ni_heritage', function () {
+	$ids = (array) get_option( 'ni_heritage_ids', array() );
+	$ids = array_values( array_filter( array_map( 'intval', $ids ) ) );
+	if ( ! $ids ) {
+		return '';
+	}
+	ob_start();
+	?>
+	<section class="ni-heritage">
+		<div class="ni-pubhead">
+			<div><div class="ni-pubhead__eyebrow"><?php echo esc_html( ni_l( 'From our archive', 'من أرشيفنا' ) ); ?></div><h2><?php echo esc_html( ni_l( 'A legacy of learning', 'إرث من التعلّم' ) ); ?></h2></div>
+			<p><?php echo esc_html( ni_l( 'Classrooms, English lessons and community gatherings from Somalia’s past remind us why education and skills sit at the heart of our work today.', 'فصول دراسية ودروس في اللغة الإنجليزية ولقاءات مجتمعية من ماضي الصومال، تذكّرنا لماذا يقع التعليم وبناء المهارات في صميم عملنا اليوم.' ) ); ?></p>
+		</div>
+		<div class="ni-heritage__grid">
+			<?php foreach ( $ids as $i => $id ) : $full = wp_get_attachment_image_url( $id, 'full' ); ?>
+				<a class="ni-heritage__ph ni-heritage__ph--<?php echo (int) $i + 1; ?>" href="<?php echo esc_url( $full ); ?>" data-ni-lightbox>
+					<?php echo wp_get_attachment_image( $id, 'large', false, array( 'loading' => 'lazy', 'alt' => '' ) ); ?>
+				</a>
+			<?php endforeach; ?>
+		</div>
+	</section>
+	<?php
 	return ob_get_clean();
 } );
