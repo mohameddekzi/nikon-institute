@@ -345,7 +345,7 @@ add_shortcode( 'ni_articles', function ( $atts ) {
 		$mins   = ni_read_minutes( $p->ID );
 		$arrow  = $en ? '→' : '←';
 		?>
-		<a class="ni-art<?php echo 0 === $i ? ' ni-art--lead' : ''; ?>" href="<?php echo esc_url( get_permalink( $p ) ); ?>"<?php echo ( $ar && $en ) ? ' dir="ltr" lang="en"' : ''; ?>>
+		<a class="ni-art ni-art--lead" href="<?php echo esc_url( get_permalink( $p ) ); ?>"<?php echo ( $ar && $en ) ? ' dir="ltr" lang="en"' : ''; ?>>
 			<span class="ni-art__media">
 				<?php if ( $thumb ) : ?><img src="<?php echo esc_url( $thumb ); ?>" alt="" loading="lazy"><?php else : ?><span class="ni-art__blank">NIKON</span><?php endif; ?>
 				<span class="ni-art__tag"><?php echo esc_html( $en ? ( $ar ? 'Article · English' : 'Article' ) : 'مقال' ); ?></span>
@@ -353,7 +353,7 @@ add_shortcode( 'ni_articles', function ( $atts ) {
 			<span class="ni-art__body">
 				<span class="ni-art__meta"><?php echo esc_html( get_the_date( '', $p ) ); ?> · <?php echo esc_html( $en ? sprintf( '%d min read', $mins ) : sprintf( '%d دقائق للقراءة', $mins ) ); ?></span>
 				<span class="ni-art__title"><?php echo esc_html( get_the_title( $p ) ); ?></span>
-				<?php $sum = has_excerpt( $p ) ? get_the_excerpt( $p ) : ''; ?>
+				<?php $sum = ni_post_summary( $p, 32 ); ?>
 				<?php if ( $sum ) : ?><span class="ni-art__text"><?php echo esc_html( $sum ); ?></span><?php endif; ?>
 				<span class="ni-art__foot">
 					<?php if ( $author ) : ?><span class="ni-art__by"><span class="ni-avatar ni-avatar--sm"><?php echo esc_html( ni_initials( $author ) ); ?></span><?php echo esc_html( $author ); ?></span><?php endif; ?>

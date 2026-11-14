@@ -654,3 +654,6 @@
 .ni-lightbox img { max-width: 100%; max-height: 100%; border-radius: 4px; box-shadow: 0 40px 80px rgba(0, 0, 0, .5); }
 .ni-lightbox button { position: absolute; top: 18px; inset-inline-end: 22px; width: 44px; height: 44px; border-radius: 50%; border: 0; background: #fff; color: #152842; font-size: 24px; cursor: pointer; }
 .ni-menu > li > a:focus-visible, .ni-mega a:focus-visible { outline: 2px solid #C4A24A; outline-offset: 4px; border-radius: 2px; }
+/* v1.5.1 — every article card uses the cover style */
+.ni-arts { gap: 28px; }
+.ni-art--lead .ni-art__media img { object-position: center 20%; }
