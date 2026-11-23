@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'NI_VERSION', '1.5.2' );
+define( 'NI_VERSION', '1.5.3' );
 define( 'NI_DIR', get_template_directory() );
 define( 'NI_URI', get_template_directory_uri() );
 
