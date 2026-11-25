@@ -37,8 +37,10 @@ while ( have_posts() ) :
 						<a href="<?php echo esc_url( ni_url( 'grp_menuKnow' ) ); ?>"><?php echo esc_html( ni_l( 'Knowledge', 'المعرفة' ) ); ?></a>
 						<span class="ni-crumbs__sep">/</span>
 						<a class="ni-crumbs__cur" href="<?php echo esc_url( ni_url( 'publications' ) ); ?>"><?php echo esc_html( ni_l( 'Publications', 'المنشورات' ) ); ?></a>
-					<?php else : ?>
-						<a class="ni-crumbs__cur" href="<?php echo esc_url( ni_url( 'newsItems' ) ); ?>"><?php echo esc_html( ni_l( 'Media Center', 'المركز الإعلامي' ) ); ?></a>
+					<?php else : $ni_is_ev = has_category( 'events' ) && ! has_category( 'news' ); ?>
+						<a href="<?php echo esc_url( ni_url( 'grp_menuNews' ) ); ?>"><?php echo esc_html( ni_l( 'Media Center', 'المركز الإعلامي' ) ); ?></a>
+						<span class="ni-crumbs__sep">/</span>
+						<a class="ni-crumbs__cur" href="<?php echo esc_url( ni_url( $ni_is_ev ? 'events' : 'newsItems' ) ); ?>"><?php echo esc_html( $ni_is_ev ? ni_l( 'Events', 'الفعاليات' ) : ni_l( 'News', 'الأخبار' ) ); ?></a>
 					<?php endif; ?>
 				</div>
 				<?php if ( $ni_cat && 'uncategorized' !== $ni_cat->slug ) : ?>
@@ -115,7 +117,7 @@ while ( have_posts() ) :
 				<div class="ni-more__head">
 					<div><div class="ni-eyebrow"><span></span><?php echo esc_html( ni_l( 'Keep reading', 'تابع القراءة' ) ); ?></div>
 					<h2 class="ni-wa-h2"><?php echo esc_html( ni_l( 'More from the Institute', 'المزيد من المعهد' ) ); ?></h2></div>
-					<a class="ni-cta__btn" href="<?php echo esc_url( ni_url( ni_is_article() ? 'publications' : 'newsItems' ) ); ?>"><?php echo esc_html( ni_is_article() ? ni_l( 'All publications', 'كل المنشورات' ) : ni_l( 'All news & articles', 'كل الأخبار والمقالات' ) ); ?> <?php echo esc_html( $ni_arrow ); ?></a>
+					<?php $ni_ev2 = has_category( 'events' ) && ! has_category( 'news' ); ?><a class="ni-cta__btn" href="<?php echo esc_url( ni_url( ni_is_article() ? 'publications' : ( $ni_ev2 ? 'events' : 'newsItems' ) ) ); ?>"><?php echo esc_html( ni_is_article() ? ni_l( 'All publications', 'كل المنشورات' ) : ( $ni_ev2 ? ni_l( 'All events', 'كل الفعاليات' ) : ni_l( 'All news', 'كل الأخبار' ) ) ); ?> <?php echo esc_html( $ni_arrow ); ?></a>
 				</div>
 				<div class="ni-more__grid">
 					<?php

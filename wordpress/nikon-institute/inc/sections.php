@@ -304,9 +304,9 @@ function ni_initials( $name ) {
 
 /** [ni_articles] — long-form articles for Knowledge › Publications. */
 add_shortcode( 'ni_articles', function ( $atts ) {
-	$atts  = shortcode_atts( array( 'limit' => 12 ), $atts );
+	$atts  = shortcode_atts( array( 'limit' => 12, 'cat' => 'articles', 'tag_en' => 'Article', 'tag_ar' => 'مقال' ), $atts );
 	$ar    = ni_is_rtl();
-	$all   = get_posts( array( 'post_type' => 'post', 'post_status' => 'publish', 'category_name' => 'articles', 'numberposts' => 60, 'orderby' => array( 'date' => 'DESC', 'ID' => 'DESC' ) ) );
+	$all   = get_posts( array( 'post_type' => 'post', 'post_status' => 'publish', 'category_name' => sanitize_title( $atts['cat'] ), 'numberposts' => 60, 'orderby' => array( 'date' => 'DESC', 'ID' => 'DESC' ) ) );
 	$seen  = array();
 	$posts = array();
 	foreach ( $all as $p ) {
@@ -348,7 +348,7 @@ add_shortcode( 'ni_articles', function ( $atts ) {
 		<a class="ni-art ni-art--lead" href="<?php echo esc_url( get_permalink( $p ) ); ?>"<?php echo ( $ar && $en ) ? ' dir="ltr" lang="en"' : ''; ?>>
 			<span class="ni-art__media">
 				<?php if ( $thumb ) : ?><img src="<?php echo esc_url( $thumb ); ?>" alt="" loading="lazy"><?php else : ?><span class="ni-art__blank">NIKON</span><?php endif; ?>
-				<span class="ni-art__tag"><?php echo esc_html( $en ? ( $ar ? 'Article · English' : 'Article' ) : 'مقال' ); ?></span>
+				<span class="ni-art__tag"><?php echo esc_html( $en ? ( $ar ? $atts['tag_en'] . ' · English' : $atts['tag_en'] ) : $atts['tag_ar'] ); ?></span>
 			</span>
 			<span class="ni-art__body">
 				<span class="ni-art__meta"><?php echo esc_html( get_the_date( '', $p ) ); ?> · <?php echo esc_html( $en ? sprintf( '%d min read', $mins ) : sprintf( '%d دقائق للقراءة', $mins ) ); ?></span>
@@ -357,7 +357,7 @@ add_shortcode( 'ni_articles', function ( $atts ) {
 				<?php if ( $sum ) : ?><span class="ni-art__text"><?php echo esc_html( $sum ); ?></span><?php endif; ?>
 				<span class="ni-art__foot">
 					<?php if ( $author ) : ?><span class="ni-art__by"><span class="ni-avatar ni-avatar--sm"><?php echo esc_html( ni_initials( $author ) ); ?></span><?php echo esc_html( $author ); ?></span><?php endif; ?>
-					<span class="ni-art__more"><?php echo esc_html( $en ? 'Read article' : 'اقرأ المقال' ); ?> <?php echo esc_html( $arrow ); ?></span>
+					<span class="ni-art__more"><?php echo esc_html( $en ? ( 'articles' === $atts['cat'] ? 'Read article' : 'Read report' ) : ( 'articles' === $atts['cat'] ? 'اقرأ المقال' : 'اقرأ التقرير' ) ); ?> <?php echo esc_html( $arrow ); ?></span>
 				</span>
 			</span>
 		</a>

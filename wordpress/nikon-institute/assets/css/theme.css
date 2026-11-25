@@ -650,3 +650,12 @@
 /* v1.5.3 — article sign-off */
 .ni-article .ni-signoff { margin-top: 48px; padding-top: 28px; border-top: 2px solid #C4A24A; text-align: center; font-family: Newsreader, Georgia, serif; font-size: 22px; line-height: 1.5; color: #152842; }
 .ni-article .ni-signoff em { color: #86691C; font-size: 18px; }
+/* v1.5.4 — figures & galleries inside articles / reports */
+.ni-article .ni-figure { margin: 36px 0; }
+.ni-article .ni-figure img { display: block; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 24px 50px -30px rgba(21, 40, 66, .45); }
+.ni-article .ni-figure figcaption { margin-top: 12px; padding-inline-start: 14px; border-inline-start: 3px solid #C4A24A; font-size: 14px; line-height: 1.55; color: #5B6577; }
+.ni-article .ni-figure--narrow { max-width: 420px; margin-inline: auto; }
+.ni-article .ni-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin: 36px 0; }
+.ni-article .ni-gallery .ni-figure { margin: 0; }
+.ni-article .ni-gallery img { aspect-ratio: 4 / 3; object-fit: cover; }
+@media (max-width: 620px) { .ni-article .ni-gallery { grid-template-columns: 1fr; } }

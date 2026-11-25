@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'NI_VERSION', '1.5.3' );
+define( 'NI_VERSION', '1.5.4' );
 define( 'NI_DIR', get_template_directory() );
 define( 'NI_URI', get_template_directory_uri() );
 
@@ -175,7 +175,7 @@ add_shortcode( 'ni_news', function ( $atts ) {
 	$q    = new WP_Query( array(
 		'post_type'      => 'post',
 		'posts_per_page' => (int) $atts['count'],
-		'category__in'     => ni_news_cat_ids(),
+		'category__in'     => array_values( array_filter( array( (int) get_cat_ID( 'News' ), ( ( $pr = get_category_by_slug( 'press-release' ) ) ? (int) $pr->term_id : 0 ) ) ) ),
 		'category__not_in' => ni_article_cat_ids(),
 		'meta_query'     => 'ar' === ni_lang() // phpcs:ignore WordPress.DB.SlowDBQuery
 			? array( array( 'key' => '_ni_lang', 'value' => 'ar' ) )
